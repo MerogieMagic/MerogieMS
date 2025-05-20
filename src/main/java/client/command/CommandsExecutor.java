@@ -220,6 +220,7 @@ import client.command.commands.gm6.ShutdownCommand;
 import client.command.commands.gm6.SpawnAllPNpcsCommand;
 import client.command.commands.gm6.SupplyRateCouponCommand;
 import client.command.commands.gm6.WarpWorldCommand;
+import client.command.commands.gm6.ReloadConfigCommand;
 import constants.id.MapId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -597,6 +598,7 @@ public class CommandsExecutor {
         addCommand("removechannel", 6, ServerRemoveChannelCommand.class);
         addCommand("removeworld", 6, ServerRemoveWorldCommand.class);
         addCommand("devtest", 6, DevtestCommand.class);
+        addCommand("reloadconfig", 6, ReloadConfigCommand.class);
 
         commandsNameDesc.add(levelCommandsCursor);
     }
