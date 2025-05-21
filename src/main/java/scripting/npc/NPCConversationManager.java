@@ -1222,7 +1222,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         short newWatk = 0;
         short newMatk = 0;
         System.out.println(newItemType);
-        if (itemReqLevel >= 150 && newItemType >= 130) { // check if item required level is 150 and is a weapon
+        if (newItemType >= 130) { // check if item required level is 150 and is a weapon
             if (hands < 3) {
                 // checks if is mage weapon or attack weapon
                 if (Objects.equals(getWeaponType(newItemId), "Staff") || Objects.equals(getWeaponType(newItemId), "Wand")) {
