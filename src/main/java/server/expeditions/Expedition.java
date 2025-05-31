@@ -165,7 +165,7 @@ public class Expedition {
 
     private void log() {
         final String gmMessage = type + " Expedition with leader " + leader.getName() + " finished after " + getTimeString(getStartTime());
-        Server.getInstance().broadcastGMMessage(getLeader().getWorld(), PacketCreator.serverNotice(6, gmMessage));
+//        Server.getInstance().broadcastGMMessage(getLeader().getWorld(), PacketCreator.serverNotice(6, gmMessage));
 
         String log = type + " EXPEDITION\r\n";
         log += getTimeString(startTime) + "\r\n";
