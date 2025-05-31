@@ -124,7 +124,8 @@ function handleSelection(slot) {
     selectedItem = cm.getInventory(1).getItem(slot);
     ii = Packages.server.ItemInformationProvider.getInstance().getEquipLevelReq(selectedItem.getItemId())
     if (cm.getItemName(slot).includes("Reverse") ||
-        cm.getItemName(slot).includes("Timeless")) {
+        cm.getItemName(slot).includes("Timeless") ||
+        cm.getItemName(slot).includes("Fearless Pendant")) {
             cm.sendOk("You cannot upgrade or salvage any Reverse or Timeless equips!");
             return cm.dispose();
         }
