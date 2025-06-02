@@ -4,6 +4,7 @@ var zakDiamond   = 4032133;
 var hTegg        = 4001094;
 var rockOfTime   = 4021010;
 var previewFee   = 2500000;
+var boomProtectScroll = 2002037;
 
 // For levels 1–4, define upgrade cost and required materials
 var upgradeConfig = {
@@ -358,9 +359,14 @@ function doUpgrade(newStats) {
         cm.sendOk("By the blessing from Carbo, your item has been upgraded successfully!");
         cm.scrollPass(cm.getPlayer().getId());
     } else if (boom) {
-        cm.removeItemNPC(selectedItem.getPosition());
-        cm.sendOk("Oh no! Your item was destroyed in the attempt.");
-        cm.scrollFail(cm.getPlayer().getId());
+        if (cm.haveItem(boomProtectScroll, 1)) {
+            cm.sendOk("BOOM SHAKA LA...eh? what? AL AKAHS MOOB?!?! What time rewinded? Your item didn't explode? Oh man...");
+            cm.gainItem(boomProtectScroll, -1);
+        } else {
+            cm.removeItemNPC(selectedItem.getPosition());
+            cm.sendOk("BOOM SHAKA LAKA! Get Rekt! Your item exploded by Merogie.");
+            cm.scrollFail(cm.getPlayer().getId());
+        }
     } else {
         cm.sendOk("Upgrade failed. Better luck next time.");
         cm.scrollFail(cm.getPlayer().getId());
