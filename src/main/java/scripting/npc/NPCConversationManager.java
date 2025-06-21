@@ -791,10 +791,10 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 
         if (lobby.isCPQLobby()) {
             cpqMinLvl = 30;
-            cpqMaxLvl = 50;
+            cpqMaxLvl = 255; // changed for higher CPQ lvl
         } else {
             cpqMinLvl = 51;
-            cpqMaxLvl = 70;
+            cpqMaxLvl = 255;
         }
 
         List<PartyCharacter> partyMembers = party.getPartyMembers();
@@ -804,6 +804,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
                     return 1;  // party member detected out of area
                 }
             } else {
+//                System.out.println("Party Members dont fit requirements");
                 return 2;  // party member doesn't fit requirements
             }
         }
@@ -813,6 +814,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 
     private int canStartCPQ(MapleMap lobby, Party party, Party challenger) {
         int ret = isCPQParty(lobby, party);
+        System.out.println("isCPQParty: " + ret);
         if (ret != 0) {
             return ret;
         }
@@ -1172,10 +1174,14 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 
         return false;
     }
-
+//  ============================================================== Subordinate Helper Functions ==============================================================
     public void removeItemNPC(short itemSlot) {
         Inventory eqpInv = this.getPlayer().getInventory(InventoryType.EQUIP);
         InventoryManipulator.removeFromSlot(this.getClient(), InventoryType.EQUIP, itemSlot, (short) 1, false); //remove the item
+    }
+    public boolean checkBlacklistedItem(short slot) {
+        return getItemName(slot).contains("Reverse") || getItemName(slot).contains("Timeless") ||
+               getItemName(slot).contains("Fearless") || getItemName(slot).contains("Balrog's Fur Shoes");
     }
 
     public void replaceBoomedUpgradeItem(short boomedItemSlot) {
@@ -1398,6 +1404,10 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 
     public void scrollFail(int chr) {
         sendPacket(PacketCreator.getScrollEffect(chr, Equip.ScrollResult.FAIL, false, false));
+    }
+
+    public void scrollBoom(int chr) {
+        sendPacket(PacketCreator.getScrollEffect(chr, Equip.ScrollResult.CURSE, false, false));
     }
 
     public String getItemName(short ItemSlot) {
