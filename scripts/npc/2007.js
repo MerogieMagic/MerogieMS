@@ -20,7 +20,7 @@ function action(mode, type, selection) {
             status--;
         }
         if (status == 0) {
-            cm.sendYesNo("Hi there! I'm Merogie — thanks for playing on our server! Would you like to skip the tutorials and head straight to Lith Harbor? I can send you there right away, though it’s not really recommended for new adventurers!");
+            cm.sendYesNo("Hi there! I'm Merogie. Thanks for playing on our server! Press Yes to skip tutorial. I can send you there right away, though it’s not really recommended for new adventurers!");
 
 
 
