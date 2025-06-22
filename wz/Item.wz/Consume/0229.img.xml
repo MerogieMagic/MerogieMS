@@ -1518,7 +1518,7 @@
 </canvas>
 </imgdir>
 </imgdir>
-<imgdir name="02290084">
+<imgdir name="02290140">
 <imgdir name="info">
 <canvas name="icon" width="32" height="32">
 <vector name="origin" x="0" y="32"/>
@@ -1529,14 +1529,14 @@
 <int name="success" value="70"/>
 <int name="reqSkillLevel" value="5"/>
 <imgdir name="skill">
-<int name="0" value="4121007"/>
+<int name="0" value="4121010"/>
 </imgdir>
 <canvas name="iconRaw" width="32" height="32">
 <vector name="origin" x="0" y="32"/>
 </canvas>
 </imgdir>
 </imgdir>
-<imgdir name="02290085">
+<imgdir name="02290141">
 <imgdir name="info">
 <canvas name="icon" width="32" height="32">
 <vector name="origin" x="0" y="32"/>
@@ -1547,7 +1547,7 @@
 <int name="success" value="50"/>
 <int name="reqSkillLevel" value="15"/>
 <imgdir name="skill">
-<int name="0" value="4121007"/>
+<int name="0" value="4121010"/>
 </imgdir>
 <canvas name="iconRaw" width="32" height="32">
 <vector name="origin" x="0" y="32"/>
@@ -2562,6 +2562,42 @@
 <int name="reqSkillLevel" value="15"/>
 <imgdir name="skill">
 <int name="0" value="21120007"/>
+</imgdir>
+<canvas name="iconRaw" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="02290085">
+<imgdir name="info">
+<canvas name="icon" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+</canvas>
+<int name="slotMax" value="9999"/>
+<int name="price" value="1"/>
+<int name="masterLevel" value="30"/>
+<int name="success" value="50"/>
+<int name="reqSkillLevel" value="15"/>
+<imgdir name="skill">
+<int name="0" value="4121007"/>
+</imgdir>
+<canvas name="iconRaw" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="02290084">
+<imgdir name="info">
+<canvas name="icon" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+</canvas>
+<int name="slotMax" value="9999"/>
+<int name="price" value="1"/>
+<int name="masterLevel" value="20"/>
+<int name="success" value="70"/>
+<int name="reqSkillLevel" value="5"/>
+<imgdir name="skill">
+<int name="0" value="4121007"/>
 </imgdir>
 <canvas name="iconRaw" width="32" height="32">
 <vector name="origin" x="0" y="32"/>

@@ -4606,9 +4606,9 @@
 <string name="name" value="[Skill Book] Angel Ray"/>
 <string name="desc" value="You can learn #cAngel Ray# with this book.\nClass: Bishop.\nCondition: #cAngel Ray# not acquired."/>
 </imgdir>
-<imgdir name="2280010">
-<string name="name" value="[Skill Book] Triple Throw"/>
-<string name="desc" value="You can learn #cTriple Throw# with this book.\nClass: Night Lord.\nCondition: #cTriple Throw# not acquired."/>
+<imgdir name="2280028">
+<string name="name" value="[Skill Book] Shadow Rain"/>
+<string name="desc" value="You can learn #cShadow Rain# with this book.\nClass: Night Lord.\nCondition: #cTriple Throw# not acquired."/>
 </imgdir>
 <imgdir name="2280011">
 <string name="name" value="Ancient Ice Powder"/>
@@ -8903,13 +8903,13 @@
 <string name="name" value="[Mastery Book] Ninja Ambush"/>
 <string name="desc" value="This increases the master level of #cNinja Ambush# to 30 with a 50% chance of success.\nJob: 4th Advancement Thief\nCondition: At least level 15 in this skill"/>
 </imgdir>
-<imgdir name="2290084">
-<string name="name" value="[Mastery Book] Triple Throw"/>
-<string name="desc" value="This increases the master level of #cTriple Throw# to 20 with a 70% chance of success.\nClass: Night Lord\nCondition: At least level 5 in this skill"/>
+<imgdir name="2290140">
+<string name="name" value="[Mastery Book] Shadow Rain"/>
+<string name="desc" value="This increases the master level of #cShadow Rain# to 20 with a 70% chance of success.\nClass: Night Lord\nCondition: At least level 5 in this skill"/>
 </imgdir>
-<imgdir name="2290085">
-<string name="name" value="[Mastery Book] Triple Throw"/>
-<string name="desc" value="This increases the master level of #cTriple Throw# to 30 with a 50% chance of success.\nClass: Night Lord\nCondition: At least level 15 in this skill"/>
+<imgdir name="2290141">
+<string name="name" value="[Mastery Book] Shadow Rain"/>
+<string name="desc" value="This increases the master level of #cShadow Rain# to 30 with a 50% chance of success.\nClass: Night Lord\nCondition: At least level 15 in this skill"/>
 </imgdir>
 <imgdir name="2290086">
 <string name="name" value="[Mastery Book] Ninja Storm"/>
@@ -9449,5 +9449,17 @@
 <imgdir name="2049100">
 <string name="name" value="Chaos Scroll 60%"/>
 <string name="desc" value="Alters the equipment for better or worse. Not available on Cash Items.\nSuccess rate:60%"/>
+</imgdir>
+<imgdir name="2280010">
+<string name="name" value="[Skill Book] Triple Throw"/>
+<string name="desc" value="You can learn #cTriple Throw# with this book.\nClass: Night Lord.\nCondition: #cTriple Throw# not acquired."/>
+</imgdir>
+<imgdir name="2290085">
+<string name="name" value="[Mastery Book] Triple Throw"/>
+<string name="desc" value="This increases the master level of #cTriple Throw# to 30 with a 50% chance of success.\nClass: Night Lord\nCondition: At least level 15 in this skill"/>
+</imgdir>
+<imgdir name="2290084">
+<string name="name" value="[Mastery Book] Triple Throw"/>
+<string name="desc" value="This increases the master level of #cTriple Throw# to 20 with a 70% chance of success.\nClass: Night Lord\nCondition: At least level 5 in this skill"/>
 </imgdir>
 </imgdir>

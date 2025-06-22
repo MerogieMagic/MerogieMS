@@ -3278,77 +3278,75 @@
 </imgdir>
 <imgdir name="dragonstrike">
 <imgdir name="0">
-<string name="action" value="swingP2"/>
-<int name="frame" value="1"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="6" y="-14"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-60"/>
 </imgdir>
 <imgdir name="1">
-<string name="action" value="swingP2"/>
-<int name="frame" value="0"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="1" y="-20"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-60"/>
+<vector name="move" x="7" y="0"/>
 </imgdir>
 <imgdir name="2">
-<string name="action" value="swingOF"/>
-<int name="frame" value="1"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="6" y="-19"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-60"/>
+<vector name="move" x="9" y="0"/>
 </imgdir>
 <imgdir name="3">
-<string name="action" value="swingT2"/>
-<int name="frame" value="0"/>
-<int name="delay" value="-120"/>
-<int name="flip" value="1"/>
-<vector name="move" x="-7" y="-35"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-60"/>
+<vector name="move" x="10" y="0"/>
 </imgdir>
 <imgdir name="4">
-<string name="action" value="swingTF"/>
-<int name="frame" value="1"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="8" y="-34"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-240"/>
+<vector name="move" x="11" y="0"/>
 </imgdir>
 <imgdir name="5">
-<string name="action" value="swingTF"/>
-<int name="frame" value="1"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="8" y="-35"/>
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-9" y="0"/>
 </imgdir>
 <imgdir name="6">
-<string name="action" value="swingTF"/>
-<int name="frame" value="1"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="8" y="-34"/>
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-15" y="0"/>
 </imgdir>
 <imgdir name="7">
-<string name="action" value="swingTF"/>
-<int name="frame" value="1"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="8" y="-28"/>
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-18" y="0"/>
 </imgdir>
 <imgdir name="8">
-<string name="action" value="swingOF"/>
-<int name="frame" value="3"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="43" y="0"/>
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-20" y="0"/>
 </imgdir>
 <imgdir name="9">
-<string name="action" value="swingOF"/>
-<int name="frame" value="3"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="43" y="1"/>
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-21" y="0"/>
 </imgdir>
 <imgdir name="10">
-<string name="action" value="swingOF"/>
-<int name="frame" value="3"/>
-<int name="delay" value="-120"/>
-<vector name="move" x="43" y="2"/>
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="540"/>
+<vector name="move" x="-22" y="0"/>
 </imgdir>
 <imgdir name="11">
-<string name="action" value="swingOF"/>
-<int name="frame" value="3"/>
-<int name="delay" value="120"/>
-<vector name="move" x="43" y="3"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="1"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-37" y="0"/>
 </imgdir>
 </imgdir>
 <imgdir name="airstrike">
@@ -4705,14 +4703,81 @@
 </imgdir>
 <imgdir name="shockwave">
 <imgdir name="0">
-<string name="action" value="alert"/>
-<int name="frame" value="0"/>
-<int name="delay" value="-1380"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="1"/>
+<int name="delay" value="-90"/>
 </imgdir>
 <imgdir name="1">
-<string name="action" value="alert"/>
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-90"/>
+<vector name="move" x="16" y="0"/>
+</imgdir>
+<imgdir name="2">
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-90"/>
+<vector name="move" x="23" y="0"/>
+</imgdir>
+<imgdir name="3">
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-90"/>
+<vector name="move" x="25" y="0"/>
+</imgdir>
+<imgdir name="4">
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-90"/>
+<vector name="move" x="26" y="0"/>
+</imgdir>
+<imgdir name="5">
+<string name="action" value="swingO3"/>
+<int name="frame" value="2"/>
+<int name="delay" value="-270"/>
+<vector name="move" x="27" y="0"/>
+</imgdir>
+<imgdir name="6">
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="7" y="0"/>
+</imgdir>
+<imgdir name="7">
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="1" y="0"/>
+</imgdir>
+<imgdir name="8">
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="120"/>
+<vector name="move" x="-2" y="0"/>
+</imgdir>
+<imgdir name="9">
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-4" y="0"/>
+</imgdir>
+<imgdir name="10">
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-5" y="0"/>
+</imgdir>
+<imgdir name="11">
+<string name="action" value="stabOF"/>
+<int name="frame" value="2"/>
+<int name="delay" value="270"/>
+<vector name="move" x="-6" y="0"/>
+</imgdir>
+<imgdir name="12">
+<string name="action" value="swingO3"/>
 <int name="frame" value="1"/>
-<int name="delay" value="600"/>
+<int name="delay" value="90"/>
+<vector name="move" x="-21" y="0"/>
 </imgdir>
 </imgdir>
 <imgdir name="demolition">

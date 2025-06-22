@@ -558,231 +558,231 @@
 <string name="hs" value="h1"/>
 <int name="mpCon" value="200"/>
 <int name="x" value="1"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 </imgdir>
 <imgdir name="2">
 <string name="hs" value="h2"/>
 <int name="x" value="2"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="3">
 <string name="hs" value="h3"/>
 <int name="x" value="3"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="4">
 <string name="hs" value="h4"/>
 <int name="x" value="4"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="5">
 <string name="hs" value="h5"/>
 <int name="x" value="5"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="6">
 <string name="hs" value="h6"/>
 <int name="x" value="6"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="7">
 <string name="hs" value="h7"/>
 <int name="x" value="7"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="8">
 <string name="hs" value="h8"/>
 <int name="x" value="8"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="9">
 <string name="hs" value="h9"/>
 <int name="x" value="9"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="10">
 <string name="hs" value="h10"/>
 <int name="x" value="10"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="11">
 <string name="hs" value="h11"/>
 <int name="x" value="11"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="12">
 <string name="hs" value="h12"/>
 <int name="x" value="12"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="13">
 <string name="hs" value="h13"/>
 <int name="x" value="13"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="14">
 <string name="hs" value="h14"/>
 <int name="x" value="14"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="15">
 <string name="hs" value="h15"/>
 <int name="x" value="15"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="16">
 <string name="hs" value="h16"/>
 <int name="x" value="16"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="17">
 <string name="hs" value="h17"/>
 <int name="x" value="17"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="18">
 <string name="hs" value="h18"/>
 <int name="x" value="18"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="19">
 <string name="hs" value="h19"/>
 <int name="x" value="19"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="20">
 <string name="hs" value="h20"/>
 <int name="x" value="20"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="21">
 <string name="hs" value="h21"/>
 <int name="x" value="21"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="22">
 <string name="hs" value="h22"/>
 <int name="x" value="22"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="23">
 <string name="hs" value="h23"/>
 <int name="x" value="23"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="24">
 <string name="hs" value="h24"/>
 <int name="x" value="24"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="25">
 <string name="hs" value="h25"/>
 <int name="x" value="25"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="26">
 <string name="hs" value="h26"/>
 <int name="x" value="26"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="27">
 <string name="hs" value="h27"/>
 <int name="x" value="27"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="28">
 <string name="hs" value="h28"/>
 <int name="x" value="28"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 <imgdir name="29">
 <string name="hs" value="h29"/>
 <int name="x" value="29"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="time" value="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
@@ -790,8 +790,8 @@
 <string name="hs" value="h30"/>
 <int name="x" value="35"/>
 <int name="time" value="2000"/>
-<vector name="lt" x="-400" y="-300"/>
-<vector name="rb" x="400" y="300"/>
+<vector name="lt" x="-2000" y="-2000"/>
+<vector name="rb" x="2000" y="2000"/>
 <int name="mpCon" value="200"/>
 </imgdir>
 </imgdir>
@@ -1436,899 +1436,381 @@
 </imgdir>
 </imgdir>
 <imgdir name="1221007">
-<canvas name="icon" width="32" height="32">
-<vector name="origin" x="0" y="32"/>
-<int name="z" value="0"/>
-</canvas>
-<canvas name="iconMouseOver" width="32" height="32">
-<vector name="origin" x="0" y="32"/>
-<int name="z" value="0"/>
-</canvas>
-<canvas name="iconDisabled" width="32" height="32">
-<vector name="origin" x="0" y="32"/>
-<int name="z" value="0"/>
-</canvas>
 <imgdir name="level">
 <imgdir name="30">
 <string name="hs" value="h30"/>
 <int name="mpCon" value="50"/>
 <int name="damage" value="130"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-300" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="29">
 <string name="hs" value="h29"/>
 <int name="mpCon" value="51"/>
 <int name="damage" value="128"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-250" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="28">
 <string name="hs" value="h28"/>
 <int name="mpCon" value="52"/>
 <int name="damage" value="126"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-250" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="27">
 <string name="hs" value="h27"/>
 <int name="mpCon" value="53"/>
 <int name="damage" value="124"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-240" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="26">
 <string name="hs" value="h26"/>
 <int name="mpCon" value="54"/>
 <int name="damage" value="122"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-240" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="25">
 <string name="hs" value="h25"/>
 <int name="mpCon" value="55"/>
 <int name="damage" value="120"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-240" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="24">
 <string name="hs" value="h24"/>
 <int name="mpCon" value="56"/>
 <int name="damage" value="118"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-230" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="23">
 <string name="hs" value="h23"/>
 <int name="mpCon" value="57"/>
 <int name="damage" value="116"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-230" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="22">
 <string name="hs" value="h22"/>
 <int name="mpCon" value="58"/>
 <int name="damage" value="114"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-230" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="21">
 <string name="hs" value="h21"/>
 <int name="mpCon" value="59"/>
 <int name="damage" value="112"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-220" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="20">
 <string name="hs" value="h20"/>
 <int name="mpCon" value="60"/>
 <int name="damage" value="110"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-220" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="19">
 <string name="hs" value="h19"/>
 <int name="mpCon" value="58"/>
 <int name="damage" value="108"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-220" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="18">
 <string name="hs" value="h18"/>
 <int name="mpCon" value="56"/>
 <int name="damage" value="106"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-210" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="17">
 <string name="hs" value="h17"/>
 <int name="mpCon" value="54"/>
 <int name="damage" value="104"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-210" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="16">
 <string name="hs" value="h16"/>
 <int name="mpCon" value="52"/>
 <int name="damage" value="102"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-210" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="15">
 <string name="hs" value="h15"/>
 <int name="mpCon" value="50"/>
 <int name="damage" value="100"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-200" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="14">
 <string name="hs" value="h14"/>
 <int name="mpCon" value="48"/>
 <int name="damage" value="98"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-200" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="13">
 <string name="hs" value="h13"/>
 <int name="mpCon" value="46"/>
 <int name="damage" value="96"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-200" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="12">
 <string name="hs" value="h12"/>
 <int name="mpCon" value="44"/>
 <int name="damage" value="94"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-190" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="11">
 <string name="hs" value="h11"/>
 <int name="mpCon" value="42"/>
 <int name="damage" value="92"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-190" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="10">
 <string name="hs" value="h10"/>
 <int name="mpCon" value="40"/>
 <int name="damage" value="90"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-190" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="9">
 <string name="hs" value="h9"/>
 <int name="mpCon" value="38"/>
 <int name="damage" value="88"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-180" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="8">
 <string name="hs" value="h8"/>
 <int name="mpCon" value="36"/>
 <int name="damage" value="86"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-180" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="7">
 <string name="hs" value="h7"/>
 <int name="mpCon" value="34"/>
 <int name="damage" value="84"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-180" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="6">
 <string name="hs" value="h6"/>
 <int name="mpCon" value="32"/>
 <int name="damage" value="82"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-170" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="5">
 <string name="hs" value="h5"/>
 <int name="mpCon" value="30"/>
 <int name="damage" value="80"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-170" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="4">
 <string name="hs" value="h4"/>
 <int name="mpCon" value="28"/>
 <int name="damage" value="78"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-170" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="3">
 <string name="hs" value="h3"/>
 <int name="mpCon" value="26"/>
 <int name="damage" value="76"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-160" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="2">
 <string name="hs" value="h2"/>
 <int name="mpCon" value="24"/>
 <int name="damage" value="74"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-160" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
 <imgdir name="1">
 <string name="hs" value="h1"/>
 <int name="mpCon" value="22"/>
 <int name="damage" value="72"/>
 <int name="mobCount" value="15"/>
-<vector name="lt" x="-160" y="-50"/>
-<vector name="rb" x="0" y="0"/>
+<vector name="lt" x="-380" y="-50"/>
+<vector name="rb" x="0" y="50"/>
 </imgdir>
-</imgdir>
-<imgdir name="effect">
-<canvas name="0" width="1" height="1">
-<vector name="origin" x="0" y="0"/>
-<int name="delay" value="100"/>
-</canvas>
-<canvas name="1" width="260" height="136">
-<vector name="origin" x="86" y="98"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="2" width="286" height="123">
-<vector name="origin" x="86" y="95"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="3" width="239" height="163">
-<vector name="origin" x="88" y="110"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="4" width="240" height="162">
-<vector name="origin" x="86" y="124"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="5" width="236" height="140">
-<vector name="origin" x="85" y="129"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="6" width="230" height="109">
-<vector name="origin" x="80" y="129"/>
-<int name="delay" value="120"/>
-</canvas>
-</imgdir>
-<imgdir name="effect0">
-<canvas name="0" width="195" height="123">
-<vector name="origin" x="57" y="113"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="1" width="199" height="123">
-<vector name="origin" x="58" y="113"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="2" width="185" height="119">
-<vector name="origin" x="56" y="109"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="3" width="170" height="116">
-<vector name="origin" x="55" y="106"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="4" width="155" height="109">
-<vector name="origin" x="56" y="99"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="5" width="149" height="98">
-<vector name="origin" x="53" y="98"/>
-<int name="delay" value="120"/>
-</canvas>
-<int name="z" value="-1"/>
 </imgdir>
 <imgdir name="action">
 <string name="0" value="rush2"/>
 </imgdir>
 <int name="invisible" value="1"/>
-</imgdir>
-<imgdir name="1221009">
-<imgdir name="level">
-<imgdir name="1">
-<string name="hs" value="h1"/>
-<int name="damage" value="380"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="attackCount" value="1"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-</imgdir>
-<imgdir name="2">
-<string name="hs" value="h2"/>
-<int name="damage" value="410"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="3">
-<string name="hs" value="h3"/>
-<int name="damage" value="440"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="4">
-<string name="hs" value="h4"/>
-<int name="damage" value="470"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="5">
-<string name="hs" value="h5"/>
-<int name="damage" value="500"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="6">
-<string name="hs" value="h6"/>
-<int name="damage" value="530"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="7">
-<string name="hs" value="h7"/>
-<int name="damage" value="560"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="8">
-<string name="hs" value="h8"/>
-<int name="damage" value="590"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="9">
-<string name="hs" value="h9"/>
-<int name="damage" value="620"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="10">
-<string name="hs" value="h10"/>
-<int name="damage" value="650"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="30"/>
-<int name="mpCon" value="20"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="11">
-<string name="hs" value="h11"/>
-<int name="damage" value="680"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="12">
-<string name="hs" value="h12"/>
-<int name="damage" value="710"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="13">
-<string name="hs" value="h13"/>
-<int name="damage" value="740"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="14">
-<string name="hs" value="h14"/>
-<int name="damage" value="770"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="15">
-<string name="hs" value="h15"/>
-<int name="damage" value="800"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="16">
-<string name="hs" value="h16"/>
-<int name="damage" value="830"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="17">
-<string name="hs" value="h17"/>
-<int name="damage" value="860"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="18">
-<string name="hs" value="h18"/>
-<int name="damage" value="890"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="19">
-<string name="hs" value="h19"/>
-<int name="damage" value="920"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="20">
-<string name="hs" value="h20"/>
-<int name="damage" value="950"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="60"/>
-<int name="mpCon" value="40"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="21">
-<string name="hs" value="h21"/>
-<int name="damage" value="980"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="22">
-<string name="hs" value="h22"/>
-<int name="damage" value="1010"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="23">
-<string name="hs" value="h23"/>
-<int name="damage" value="1040"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="24">
-<string name="hs" value="h24"/>
-<int name="damage" value="1070"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="25">
-<string name="hs" value="h25"/>
-<int name="damage" value="1100"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="26">
-<string name="hs" value="h26"/>
-<int name="damage" value="1130"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="27">
-<string name="hs" value="h27"/>
-<int name="damage" value="1160"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="28">
-<string name="hs" value="h28"/>
-<int name="damage" value="1190"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="29">
-<string name="hs" value="h29"/>
-<int name="damage" value="1220"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-<imgdir name="30">
-<string name="hs" value="h30"/>
-<int name="damage" value="1250"/>
-<vector name="lt" x="-250" y="-110"/>
-<vector name="rb" x="-20" y="0"/>
-<int name="mobCount" value="2"/>
-<int name="hpCon" value="90"/>
-<int name="mpCon" value="60"/>
-<int name="attackCount" value="1"/>
-</imgdir>
-</imgdir>
-<imgdir name="hit">
-<imgdir name="0">
-<imgdir name="0">
-<canvas name="0" width="56" height="58">
-<vector name="origin" x="28" y="28"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="1" width="84" height="83">
-<vector name="origin" x="41" y="41"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="2" width="64" height="72">
-<vector name="origin" x="32" y="33"/>
-<int name="delay" value="90"/>
-</canvas>
-</imgdir>
-<imgdir name="1">
-<canvas name="0" width="56" height="58">
-<vector name="origin" x="28" y="28"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="1" width="84" height="83">
-<vector name="origin" x="41" y="41"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="2" width="64" height="72">
-<vector name="origin" x="32" y="33"/>
-<int name="delay" value="90"/>
-</canvas>
-</imgdir>
-<imgdir name="2">
-<canvas name="0" width="56" height="58">
-<vector name="origin" x="28" y="28"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="1" width="84" height="83">
-<vector name="origin" x="41" y="41"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="2" width="64" height="72">
-<vector name="origin" x="32" y="33"/>
-<int name="delay" value="90"/>
-</canvas>
-</imgdir>
-<imgdir name="3">
-<canvas name="0" width="56" height="58">
-<vector name="origin" x="28" y="28"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="1" width="84" height="83">
-<vector name="origin" x="41" y="41"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="2" width="64" height="72">
-<vector name="origin" x="32" y="33"/>
-<int name="delay" value="90"/>
-</canvas>
-</imgdir>
-<imgdir name="5">
-<canvas name="0" width="56" height="58">
-<vector name="origin" x="28" y="28"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="1" width="84" height="83">
-<vector name="origin" x="41" y="41"/>
-<int name="delay" value="90"/>
-</canvas>
-<canvas name="2" width="64" height="72">
-<vector name="origin" x="32" y="33"/>
-<int name="delay" value="90"/>
-</canvas>
-</imgdir>
-</imgdir>
-</imgdir>
-<imgdir name="effect">
-<imgdir name="0">
-<canvas name="0" width="170" height="118">
-<vector name="origin" x="63" y="94"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="1" width="154" height="177">
-<vector name="origin" x="66" y="139"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="2" width="141" height="158">
-<vector name="origin" x="61" y="128"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="3" width="206" height="216">
-<vector name="origin" x="97" y="150"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="4" width="206" height="210">
-<vector name="origin" x="96" y="140"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="5" width="206" height="203">
-<vector name="origin" x="96" y="133"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="6" width="206" height="206">
-<vector name="origin" x="96" y="136"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="7" width="206" height="203">
-<vector name="origin" x="96" y="133"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="8" width="206" height="203">
-<vector name="origin" x="96" y="133"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="9" width="246" height="84">
-<vector name="origin" x="115" y="68"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="10" width="270" height="85">
-<vector name="origin" x="115" y="70"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="11" width="278" height="88">
-<vector name="origin" x="116" y="73"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="12" width="260" height="87">
-<vector name="origin" x="115" y="74"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="13" width="266" height="88">
-<vector name="origin" x="119" y="74"/>
-<int name="delay" value="60"/>
-</canvas>
-</imgdir>
-<imgdir name="1">
-<uol name="0" value="../0/0"/>
-<uol name="1" value="../0/1"/>
-<uol name="2" value="../0/2"/>
-<uol name="3" value="../0/3"/>
-<uol name="4" value="../0/4"/>
-<uol name="5" value="../0/5"/>
-<uol name="6" value="../0/6"/>
-<uol name="7" value="../0/7"/>
-<uol name="8" value="../0/8"/>
-<canvas name="9" width="246" height="84">
-<vector name="origin" x="115" y="68"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="10" width="270" height="85">
-<vector name="origin" x="115" y="70"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="11" width="278" height="88">
-<vector name="origin" x="116" y="73"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="12" width="260" height="87">
-<vector name="origin" x="115" y="74"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="13" width="266" height="88">
-<vector name="origin" x="119" y="74"/>
-<int name="delay" value="60"/>
-</canvas>
-</imgdir>
-<imgdir name="2">
-<uol name="0" value="../0/0"/>
-<uol name="1" value="../0/1"/>
-<uol name="2" value="../0/2"/>
-<uol name="3" value="../0/3"/>
-<uol name="4" value="../0/4"/>
-<uol name="5" value="../0/5"/>
-<uol name="6" value="../0/6"/>
-<uol name="7" value="../0/7"/>
-<uol name="8" value="../0/8"/>
-<canvas name="9" width="246" height="84">
-<vector name="origin" x="115" y="68"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="10" width="270" height="85">
-<vector name="origin" x="115" y="70"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="11" width="288" height="88">
-<vector name="origin" x="116" y="73"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="12" width="260" height="87">
-<vector name="origin" x="115" y="74"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="13" width="266" height="88">
-<vector name="origin" x="119" y="74"/>
-<int name="delay" value="60"/>
-</canvas>
-</imgdir>
-<imgdir name="3">
-<uol name="0" value="../0/0"/>
-<uol name="1" value="../0/1"/>
-<uol name="2" value="../0/2"/>
-<uol name="3" value="../0/3"/>
-<uol name="4" value="../0/4"/>
-<uol name="5" value="../0/5"/>
-<uol name="6" value="../0/6"/>
-<uol name="7" value="../0/7"/>
-<uol name="8" value="../0/8"/>
-<canvas name="9" width="262" height="124">
-<vector name="origin" x="131" y="95"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="10" width="290" height="113">
-<vector name="origin" x="135" y="81"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="11" width="303" height="119">
-<vector name="origin" x="141" y="81"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="12" width="290" height="129">
-<vector name="origin" x="145" y="87"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="13" width="296" height="141">
-<vector name="origin" x="149" y="93"/>
-<int name="delay" value="60"/>
-</canvas>
-</imgdir>
-<imgdir name="5">
-<uol name="0" value="../0/0"/>
-<uol name="1" value="../0/1"/>
-<uol name="2" value="../0/2"/>
-<uol name="3" value="../0/3"/>
-<uol name="4" value="../0/4"/>
-<uol name="5" value="../0/5"/>
-<uol name="6" value="../0/6"/>
-<uol name="7" value="../0/7"/>
-<uol name="8" value="../0/8"/>
-<canvas name="9" width="266" height="175">
-<vector name="origin" x="135" y="111"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="10" width="300" height="205">
-<vector name="origin" x="145" y="126"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="11" width="311" height="213">
-<vector name="origin" x="149" y="130"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="12" width="287" height="221">
-<vector name="origin" x="142" y="134"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="13" width="283" height="221">
-<vector name="origin" x="136" y="134"/>
-<int name="delay" value="60"/>
-</canvas>
-</imgdir>
-</imgdir>
-<imgdir name="action">
-<string name="0" value="blast"/>
-</imgdir>
-<int name="masterLevel" value="10"/>
 <canvas name="icon" width="32" height="32">
 <vector name="origin" x="0" y="32"/>
 <int name="z" value="0"/>
+<string name="_hash" value="84d32b6a7c85814c5e42f15d9d83762759b84408a726c7d01bd6845c5a58b3d8"/>
 </canvas>
 <canvas name="iconMouseOver" width="32" height="32">
 <vector name="origin" x="0" y="32"/>
 <int name="z" value="0"/>
+<string name="_hash" value="a58f1b9164a2ced8510101fafa2ef5974b2b3135a0418fe6953b640c32a8ff51"/>
 </canvas>
 <canvas name="iconDisabled" width="32" height="32">
 <vector name="origin" x="0" y="32"/>
 <int name="z" value="0"/>
+<string name="_hash" value="9600334da3ae8c01638ddaf60dcf81a1c812d96b5da44ab01dbaea01991f88b4"/>
 </canvas>
+<imgdir name="effect">
+<canvas name="0" width="222" height="140">
+<vector name="origin" x="53" y="126"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="8d14a4dbd50ff5847cc2a1fb67a36876260e74905c9f3ba1320abc9bdeda7307"/>
+</canvas>
+<canvas name="1" width="481" height="233">
+<vector name="origin" x="242" y="154"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="b689687cd04c9153ea9cd647fcc9cbe6d9114ea5eb1c818bb9b9b18ba100fa7b"/>
+</canvas>
+<canvas name="2" width="457" height="219">
+<vector name="origin" x="242" y="147"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="85780a85dd83d593e34a373a06aabb6be870444a1024a776bd65c58a3a396bf6"/>
+</canvas>
+<canvas name="3" width="405" height="174">
+<vector name="origin" x="241" y="138"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="46453085704bc69c856b97d35a91159cd3e921a860e9ec3c2e95d31a509dc59e"/>
+</canvas>
+<canvas name="4" width="296" height="103">
+<vector name="origin" x="240" y="74"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="29a4d8e3cb29a3d662d027983a7aab308f863d4c759519ffbb569b9c2bceeb47"/>
+</canvas>
+<canvas name="5" width="260" height="68">
+<vector name="origin" x="240" y="59"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="bf2daa6f774612a1591834b4760729d44a39450a401886a44fe9e9a0320daf9f"/>
+</canvas>
+<canvas name="6" width="242" height="56">
+<vector name="origin" x="238" y="50"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="5d689a8ecd592102cc307ed59b3cf19beeb055cea1e3ae076388863d54d90d7e"/>
+</canvas>
+<canvas name="7" width="226" height="53">
+<vector name="origin" x="233" y="48"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="b0d7d16354a8a3aa9b7d70bc1ac238fdf15ca21a56a7ee19858d673f8183dfcb"/>
+</canvas>
+</imgdir>
+<imgdir name="effect0">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="131" y="142"/>
+<int name="delay" value="240"/>
+</canvas>
+<canvas name="1" width="249" height="197">
+<vector name="origin" x="127" y="142"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="d00f4718bb652fe47446a9670f5d4935b7cd37b0cd64f1ec670c08721571e166"/>
+</canvas>
+<canvas name="2" width="233" height="224">
+<vector name="origin" x="107" y="159"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="17da6e85c59c71761d1f7971114312adb20b0c988ce4d65829777f04f8e5c49a"/>
+</canvas>
+<canvas name="3" width="225" height="233">
+<vector name="origin" x="98" y="165"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="9ed1d36d01f0c140168d13cff29bc3ffc7bd5f2b13ad1443a088628f0e5693ec"/>
+</canvas>
+<canvas name="4" width="194" height="237">
+<vector name="origin" x="90" y="167"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="e0775c607fd30a502f7a56415c52a7d520347a3378743e186fd98ebad1d288af"/>
+</canvas>
+<canvas name="5" width="174" height="226">
+<vector name="origin" x="71" y="159"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="fc5f1965ef0e6f479980228a717cc9f6320b348b4ef95f958b9699a2f7d40191"/>
+</canvas>
+<canvas name="6" width="153" height="239">
+<vector name="origin" x="46" y="165"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="67c0dd4852d29141eb80b455391744af02292adb93bc7714cbd34ed97f715589"/>
+</canvas>
+<canvas name="7" width="155" height="244">
+<vector name="origin" x="46" y="167"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="3f5cdab7251ad3a4ff73a2222d1be69cb5e6dc6cd0b5bf622d4aa98ae335a63b"/>
+</canvas>
+<int name="z" value="-2"/>
+</imgdir>
+<imgdir name="hit">
+<imgdir name="0">
+<canvas name="0" width="286" height="176">
+<vector name="origin" x="157" y="86"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="3ad9918cb94b37551f74af4d96995e228fbb10b8c85e51fd675e448a25466954"/>
+</canvas>
+<canvas name="1" width="206" height="185">
+<vector name="origin" x="106" y="91"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="a4d076e503e8468b1364e8fd8be7e79e0fdb1c870dbbc86a0041b8d48f6f0762"/>
+</canvas>
+<canvas name="2" width="198" height="196">
+<vector name="origin" x="101" y="96"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="7d2cb42aabcd7bb54b749ce8269b8ceabdc2ee241f982a435d7cb4871e9a1b8e"/>
+</canvas>
+<canvas name="3" width="140" height="132">
+<vector name="origin" x="78" y="76"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="51099da05e322c36e6a5aac3a22e070db9aa38146bcd4b74dfb0a1670b84fdc3"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="1221009">
+<imgdir name="action">
+<string name="0" value="blast"/>
+</imgdir>
+<int name="masterLevel" value="10"/>
 <imgdir name="afterimage">
 <imgdir name="mace">
 <imgdir name="stabO2">
@@ -2413,6 +1895,578 @@
 <int name="1" value="42"/>
 </imgdir>
 </imgdir>
+<canvas name="iconDisabled" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="iconMouseOver" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="icon" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<imgdir name="effect">
+<imgdir name="0">
+<canvas name="0" width="170" height="118">
+<vector name="origin" x="63" y="94"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="1" width="154" height="177">
+<vector name="origin" x="66" y="139"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="2" width="141" height="158">
+<vector name="origin" x="61" y="128"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="3" width="206" height="216">
+<vector name="origin" x="97" y="150"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="4" width="206" height="210">
+<vector name="origin" x="96" y="140"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="5" width="206" height="203">
+<vector name="origin" x="96" y="133"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="6" width="206" height="206">
+<vector name="origin" x="96" y="136"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="7" width="206" height="203">
+<vector name="origin" x="96" y="133"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="8" width="206" height="203">
+<vector name="origin" x="96" y="133"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="13" width="280" height="143">
+<vector name="origin" x="272" y="93"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="12" width="465" height="162">
+<vector name="origin" x="278" y="99"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="11" width="466" height="203">
+<vector name="origin" x="279" y="104"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="10" width="509" height="248">
+<vector name="origin" x="280" y="135"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="9" width="528" height="279">
+<vector name="origin" x="280" y="140"/>
+<int name="delay" value="60"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<uol name="0" value="../0/0"/>
+<uol name="1" value="../0/1"/>
+<uol name="2" value="../0/2"/>
+<uol name="3" value="../0/3"/>
+<uol name="4" value="../0/4"/>
+<uol name="5" value="../0/5"/>
+<uol name="6" value="../0/6"/>
+<uol name="7" value="../0/7"/>
+<uol name="8" value="../0/8"/>
+<canvas name="13" width="280" height="143">
+<vector name="origin" x="272" y="93"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="12" width="465" height="162">
+<vector name="origin" x="278" y="99"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="11" width="466" height="203">
+<vector name="origin" x="279" y="104"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="10" width="509" height="248">
+<vector name="origin" x="280" y="135"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="9" width="528" height="279">
+<vector name="origin" x="280" y="140"/>
+<int name="delay" value="60"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="9" width="528" height="279">
+<vector name="origin" x="280" y="140"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="10" width="509" height="248">
+<vector name="origin" x="280" y="135"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="11" width="466" height="203">
+<vector name="origin" x="279" y="104"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="12" width="465" height="162">
+<vector name="origin" x="278" y="99"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="13" width="280" height="143">
+<vector name="origin" x="272" y="93"/>
+<int name="delay" value="60"/>
+</canvas>
+<uol name="8" value="../0/8"/>
+<uol name="7" value="../0/7"/>
+<uol name="6" value="../0/6"/>
+<uol name="5" value="../0/5"/>
+<uol name="4" value="../0/4"/>
+<uol name="3" value="../0/3"/>
+<uol name="2" value="../0/2"/>
+<uol name="1" value="../0/1"/>
+<uol name="0" value="../0/0"/>
+</imgdir>
+<imgdir name="3">
+<uol name="0" value="../0/0"/>
+<uol name="1" value="../0/1"/>
+<uol name="2" value="../0/2"/>
+<uol name="3" value="../0/3"/>
+<uol name="4" value="../0/4"/>
+<uol name="5" value="../0/5"/>
+<uol name="6" value="../0/6"/>
+<uol name="7" value="../0/7"/>
+<uol name="8" value="../0/8"/>
+<canvas name="13" width="280" height="143">
+<vector name="origin" x="272" y="93"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="12" width="465" height="162">
+<vector name="origin" x="278" y="99"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="11" width="466" height="203">
+<vector name="origin" x="279" y="104"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="10" width="509" height="248">
+<vector name="origin" x="280" y="135"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="9" width="528" height="279">
+<vector name="origin" x="280" y="140"/>
+<int name="delay" value="60"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<uol name="0" value="../0/0"/>
+<uol name="1" value="../0/1"/>
+<uol name="2" value="../0/2"/>
+<uol name="3" value="../0/3"/>
+<uol name="4" value="../0/4"/>
+<uol name="5" value="../0/5"/>
+<uol name="6" value="../0/6"/>
+<uol name="7" value="../0/7"/>
+<uol name="8" value="../0/8"/>
+<canvas name="13" width="280" height="143">
+<vector name="origin" x="272" y="93"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="12" width="465" height="162">
+<vector name="origin" x="278" y="99"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="11" width="466" height="203">
+<vector name="origin" x="279" y="104"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="10" width="509" height="248">
+<vector name="origin" x="280" y="135"/>
+<int name="delay" value="60"/>
+</canvas>
+<canvas name="9" width="528" height="279">
+<vector name="origin" x="280" y="140"/>
+<int name="delay" value="60"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="hit">
+<imgdir name="0">
+<imgdir name="0">
+<canvas name="0" width="56" height="58">
+<vector name="origin" x="28" y="28"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="1" width="84" height="83">
+<vector name="origin" x="41" y="41"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="2" width="64" height="72">
+<vector name="origin" x="32" y="33"/>
+<int name="delay" value="90"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="56" height="58">
+<vector name="origin" x="28" y="28"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="1" width="84" height="83">
+<vector name="origin" x="41" y="41"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="2" width="64" height="72">
+<vector name="origin" x="32" y="33"/>
+<int name="delay" value="90"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="56" height="58">
+<vector name="origin" x="28" y="28"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="1" width="84" height="83">
+<vector name="origin" x="41" y="41"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="2" width="64" height="72">
+<vector name="origin" x="32" y="33"/>
+<int name="delay" value="90"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="0" width="56" height="58">
+<vector name="origin" x="28" y="28"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="1" width="84" height="83">
+<vector name="origin" x="41" y="41"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="2" width="64" height="72">
+<vector name="origin" x="32" y="33"/>
+<int name="delay" value="90"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<canvas name="0" width="56" height="58">
+<vector name="origin" x="28" y="28"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="1" width="84" height="83">
+<vector name="origin" x="41" y="41"/>
+<int name="delay" value="90"/>
+</canvas>
+<canvas name="2" width="64" height="72">
+<vector name="origin" x="32" y="33"/>
+<int name="delay" value="90"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="level">
+<imgdir name="1">
+<string name="hs" value="h1"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="212"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="2">
+<string name="hs" value="h2"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="218"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="3">
+<string name="hs" value="h3"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="224"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="4">
+<string name="hs" value="h4"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="230"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="5">
+<string name="hs" value="h5"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="236"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="6">
+<string name="hs" value="h6"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="242"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="7">
+<string name="hs" value="h7"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="248"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="8">
+<string name="hs" value="h8"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="254"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="9">
+<string name="hs" value="h9"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="260"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="10">
+<string name="hs" value="h10"/>
+<int name="hpCon" value="30"/>
+<int name="mpCon" value="30"/>
+<int name="damage" value="266"/>
+<int name="mobCount" value="3"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="11">
+<string name="hs" value="h11"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="270"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="12">
+<string name="hs" value="h12"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="274"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="13">
+<string name="hs" value="h13"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="278"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="14">
+<string name="hs" value="h14"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="282"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="15">
+<string name="hs" value="h15"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="286"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="16">
+<string name="hs" value="h16"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="290"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="17">
+<string name="hs" value="h17"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="294"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="18">
+<string name="hs" value="h18"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="298"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="19">
+<string name="hs" value="h19"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="302"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="20">
+<string name="hs" value="h20"/>
+<int name="hpCon" value="40"/>
+<int name="mpCon" value="40"/>
+<int name="damage" value="306"/>
+<int name="mobCount" value="4"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="21">
+<string name="hs" value="h21"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="308"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="22">
+<string name="hs" value="h22"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="310"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="23">
+<string name="hs" value="h23"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="312"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="24">
+<string name="hs" value="h24"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="314"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="25">
+<string name="hs" value="h25"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="316"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="26">
+<string name="hs" value="h26"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="318"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="27">
+<string name="hs" value="h27"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="320"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="28">
+<string name="hs" value="h28"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="322"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="29">
+<string name="hs" value="h29"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="324"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+<imgdir name="30">
+<string name="hs" value="h30"/>
+<int name="hpCon" value="50"/>
+<int name="mpCon" value="50"/>
+<int name="damage" value="326"/>
+<int name="mobCount" value="5"/>
+<vector name="rb" x="0" y="25"/>
+<vector name="lt" x="-300" y="-25"/>
+<int name="attackCount" value="2"/>
+</imgdir>
+</imgdir>
 </imgdir>
 <imgdir name="1221003">
 <canvas name="icon" width="32" height="32">
@@ -2430,6 +2484,249 @@
 <imgdir name="action">
 <string name="0" value="alert4"/>
 </imgdir>
+<int name="invisible" value="1"/>
+<imgdir name="level">
+<imgdir name="1">
+<string name="hs" value="h1"/>
+<int name="damage" value="109"/>
+<int name="mad" value="11"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="13"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="2">
+<string name="hs" value="h2"/>
+<int name="damage" value="113"/>
+<int name="mad" value="12"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="16"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="3">
+<string name="hs" value="h3"/>
+<int name="damage" value="117"/>
+<int name="mad" value="13"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="19"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="4">
+<string name="hs" value="h4"/>
+<int name="damage" value="121"/>
+<int name="mad" value="14"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="22"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="5">
+<string name="hs" value="h5"/>
+<int name="damage" value="125"/>
+<int name="mad" value="15"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="25"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="6">
+<string name="hs" value="h6"/>
+<int name="damage" value="129"/>
+<int name="mad" value="16"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="28"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="7">
+<string name="hs" value="h7"/>
+<int name="damage" value="133"/>
+<int name="mad" value="17"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="31"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="8">
+<string name="hs" value="h8"/>
+<int name="damage" value="137"/>
+<int name="mad" value="18"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="34"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="9">
+<string name="hs" value="h9"/>
+<int name="damage" value="141"/>
+<int name="mad" value="19"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="37"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="10">
+<string name="hs" value="h10"/>
+<int name="damage" value="145"/>
+<int name="mad" value="20"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="40"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="11">
+<string name="hs" value="h11"/>
+<int name="damage" value="149"/>
+<int name="mad" value="21"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="43"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="12">
+<string name="hs" value="h12"/>
+<int name="damage" value="153"/>
+<int name="mad" value="22"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="46"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="13">
+<string name="hs" value="h13"/>
+<int name="damage" value="157"/>
+<int name="mad" value="23"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="49"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="14">
+<string name="hs" value="h14"/>
+<int name="damage" value="161"/>
+<int name="mad" value="24"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="52"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="15">
+<string name="hs" value="h15"/>
+<int name="damage" value="165"/>
+<int name="mad" value="25"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="55"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="16">
+<string name="hs" value="h16"/>
+<int name="damage" value="169"/>
+<int name="mad" value="26"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="58"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="17">
+<string name="hs" value="h17"/>
+<int name="damage" value="173"/>
+<int name="mad" value="27"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="61"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="18">
+<string name="hs" value="h18"/>
+<int name="damage" value="177"/>
+<int name="mad" value="28"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="64"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="19">
+<string name="hs" value="h19"/>
+<int name="damage" value="181"/>
+<int name="mad" value="29"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="67"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="20">
+<string name="hs" value="h20"/>
+<int name="damage" value="185"/>
+<int name="mad" value="30"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="70"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+</imgdir>
 <imgdir name="effect">
 <canvas name="0" width="94" height="202">
 <vector name="origin" x="52" y="194"/>
@@ -2499,249 +2796,6 @@
 <vector name="origin" x="31" y="76"/>
 <int name="delay" value="60"/>
 </canvas>
-</imgdir>
-<int name="invisible" value="1"/>
-<imgdir name="level">
-<imgdir name="1">
-<string name="hs" value="h1"/>
-<int name="damage" value="160"/>
-<int name="mad" value="11"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="43"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="2">
-<string name="hs" value="h2"/>
-<int name="damage" value="170"/>
-<int name="mad" value="12"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="46"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="3">
-<string name="hs" value="h3"/>
-<int name="damage" value="180"/>
-<int name="mad" value="13"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="49"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="4">
-<string name="hs" value="h4"/>
-<int name="damage" value="190"/>
-<int name="mad" value="14"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="52"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="5">
-<string name="hs" value="h5"/>
-<int name="damage" value="200"/>
-<int name="mad" value="15"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="55"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="6">
-<string name="hs" value="h6"/>
-<int name="damage" value="210"/>
-<int name="mad" value="16"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="58"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="7">
-<string name="hs" value="h7"/>
-<int name="damage" value="220"/>
-<int name="mad" value="17"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="61"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="8">
-<string name="hs" value="h8"/>
-<int name="damage" value="230"/>
-<int name="mad" value="18"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="64"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="9">
-<string name="hs" value="h9"/>
-<int name="damage" value="240"/>
-<int name="mad" value="19"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="67"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="10">
-<string name="hs" value="h10"/>
-<int name="damage" value="250"/>
-<int name="mad" value="20"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="70"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="11">
-<string name="hs" value="h11"/>
-<int name="damage" value="260"/>
-<int name="mad" value="21"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="73"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="12">
-<string name="hs" value="h12"/>
-<int name="damage" value="270"/>
-<int name="mad" value="22"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="76"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="13">
-<string name="hs" value="h13"/>
-<int name="damage" value="280"/>
-<int name="mad" value="23"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="79"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="14">
-<string name="hs" value="h14"/>
-<int name="damage" value="290"/>
-<int name="mad" value="24"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="82"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="15">
-<string name="hs" value="h15"/>
-<int name="damage" value="300"/>
-<int name="mad" value="25"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="85"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="16">
-<string name="hs" value="h16"/>
-<int name="damage" value="310"/>
-<int name="mad" value="26"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="88"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="17">
-<string name="hs" value="h17"/>
-<int name="damage" value="320"/>
-<int name="mad" value="27"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="91"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="18">
-<string name="hs" value="h18"/>
-<int name="damage" value="330"/>
-<int name="mad" value="28"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="94"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="19">
-<string name="hs" value="h19"/>
-<int name="damage" value="340"/>
-<int name="mad" value="29"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="97"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="20">
-<string name="hs" value="h20"/>
-<int name="mpCon" value="100"/>
-<int name="damage" value="350"/>
-<int name="mad" value="30"/>
-<int name="time" value="1000"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="100"/>
-</imgdir>
 </imgdir>
 </imgdir>
 <imgdir name="1221004">
@@ -2758,250 +2812,9 @@
 <int name="z" value="0"/>
 </canvas>
 <imgdir name="action">
-<string name="0" value="alert4"/>
+<string name="0" value="swingP1"/>
 </imgdir>
-<imgdir name="level">
-<imgdir name="1">
-<string name="hs" value="h1"/>
-<int name="damage" value="160"/>
-<int name="mad" value="11"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="43"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="2">
-<string name="hs" value="h2"/>
-<int name="damage" value="170"/>
-<int name="mad" value="12"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="46"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="3">
-<string name="hs" value="h3"/>
-<int name="damage" value="180"/>
-<int name="mad" value="13"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="49"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="4">
-<string name="hs" value="h4"/>
-<int name="damage" value="190"/>
-<int name="mad" value="14"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="52"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="5">
-<string name="hs" value="h5"/>
-<int name="damage" value="200"/>
-<int name="mad" value="15"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="55"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="6">
-<string name="hs" value="h6"/>
-<int name="damage" value="210"/>
-<int name="mad" value="16"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="58"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="7">
-<string name="hs" value="h7"/>
-<int name="damage" value="220"/>
-<int name="mad" value="17"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="61"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="8">
-<string name="hs" value="h8"/>
-<int name="damage" value="230"/>
-<int name="mad" value="18"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="64"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="9">
-<string name="hs" value="h9"/>
-<int name="damage" value="240"/>
-<int name="mad" value="19"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="67"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="10">
-<string name="hs" value="h10"/>
-<int name="damage" value="250"/>
-<int name="mad" value="20"/>
-<vector name="lt" x="-45" y="-30"/>
-<vector name="rb" x="45" y="30"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="70"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="11">
-<string name="hs" value="h11"/>
-<int name="damage" value="260"/>
-<int name="mad" value="21"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="73"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="12">
-<string name="hs" value="h12"/>
-<int name="damage" value="270"/>
-<int name="mad" value="22"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="76"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="13">
-<string name="hs" value="h13"/>
-<int name="damage" value="280"/>
-<int name="mad" value="23"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="79"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="14">
-<string name="hs" value="h14"/>
-<int name="damage" value="290"/>
-<int name="mad" value="24"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="82"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="15">
-<string name="hs" value="h15"/>
-<int name="damage" value="300"/>
-<int name="mad" value="25"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="85"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="16">
-<string name="hs" value="h16"/>
-<int name="damage" value="310"/>
-<int name="mad" value="26"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="88"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="17">
-<string name="hs" value="h17"/>
-<int name="damage" value="320"/>
-<int name="mad" value="27"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="91"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="18">
-<string name="hs" value="h18"/>
-<int name="damage" value="330"/>
-<int name="mad" value="28"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="94"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="19">
-<string name="hs" value="h19"/>
-<int name="damage" value="340"/>
-<int name="mad" value="29"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="97"/>
-<int name="time" value="1000"/>
-<int name="mpCon" value="100"/>
-</imgdir>
-<imgdir name="20">
-<string name="hs" value="h20"/>
-<int name="mpCon" value="100"/>
-<int name="damage" value="350"/>
-<int name="mad" value="30"/>
-<int name="time" value="1000"/>
-<vector name="lt" x="-50" y="-35"/>
-<vector name="rb" x="50" y="35"/>
-<int name="mobCount" value="6"/>
-<int name="x" value="1"/>
-<int name="z" value="100"/>
-</imgdir>
-</imgdir>
+<int name="invisible" value="1"/>
 <imgdir name="effect">
 <canvas name="0" width="94" height="202">
 <vector name="origin" x="52" y="194"/>
@@ -3072,7 +2885,248 @@
 <int name="delay" value="60"/>
 </canvas>
 </imgdir>
-<int name="invisible" value="1"/>
+<imgdir name="level">
+<imgdir name="1">
+<string name="hs" value="h1"/>
+<int name="damage" value="109"/>
+<int name="mad" value="11"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="13"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="2">
+<string name="hs" value="h2"/>
+<int name="damage" value="113"/>
+<int name="mad" value="12"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="16"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="3">
+<string name="hs" value="h3"/>
+<int name="damage" value="117"/>
+<int name="mad" value="13"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="19"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="4">
+<string name="hs" value="h4"/>
+<int name="damage" value="121"/>
+<int name="mad" value="14"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="22"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="5">
+<string name="hs" value="h5"/>
+<int name="damage" value="125"/>
+<int name="mad" value="15"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="25"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="6">
+<string name="hs" value="h6"/>
+<int name="damage" value="129"/>
+<int name="mad" value="16"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="28"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="7">
+<string name="hs" value="h7"/>
+<int name="damage" value="133"/>
+<int name="mad" value="17"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="31"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="8">
+<string name="hs" value="h8"/>
+<int name="damage" value="137"/>
+<int name="mad" value="18"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="34"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="9">
+<string name="hs" value="h9"/>
+<int name="damage" value="141"/>
+<int name="mad" value="19"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="37"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="10">
+<string name="hs" value="h10"/>
+<int name="damage" value="145"/>
+<int name="mad" value="20"/>
+<vector name="lt" x="-45" y="-30"/>
+<vector name="rb" x="45" y="30"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="40"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="11">
+<string name="hs" value="h11"/>
+<int name="damage" value="149"/>
+<int name="mad" value="21"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="43"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="12">
+<string name="hs" value="h12"/>
+<int name="damage" value="153"/>
+<int name="mad" value="22"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="46"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="13">
+<string name="hs" value="h13"/>
+<int name="damage" value="157"/>
+<int name="mad" value="23"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="49"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="14">
+<string name="hs" value="h14"/>
+<int name="damage" value="161"/>
+<int name="mad" value="24"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="52"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="15">
+<string name="hs" value="h15"/>
+<int name="damage" value="165"/>
+<int name="mad" value="25"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="55"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="16">
+<string name="hs" value="h16"/>
+<int name="damage" value="169"/>
+<int name="mad" value="26"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="58"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="17">
+<string name="hs" value="h17"/>
+<int name="damage" value="173"/>
+<int name="mad" value="27"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="61"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="18">
+<string name="hs" value="h18"/>
+<int name="damage" value="177"/>
+<int name="mad" value="28"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="64"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="19">
+<string name="hs" value="h19"/>
+<int name="damage" value="181"/>
+<int name="mad" value="29"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="67"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+<imgdir name="20">
+<string name="hs" value="h20"/>
+<int name="damage" value="185"/>
+<int name="mad" value="30"/>
+<vector name="lt" x="-50" y="-35"/>
+<vector name="rb" x="50" y="35"/>
+<int name="mobCount" value="6"/>
+<int name="x" value="1"/>
+<int name="z" value="70"/>
+<int name="mpCon" value="100"/>
+<int name="time" value="1000"/>
+</imgdir>
+</imgdir>
 </imgdir>
 <imgdir name="1221012">
 <canvas name="icon" width="32" height="32">
@@ -3087,52 +3141,6 @@
 <vector name="origin" x="0" y="32"/>
 <int name="z" value="0"/>
 </canvas>
-<imgdir name="effect">
-<canvas name="0" width="144" height="49">
-<vector name="origin" x="80" y="77"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="1" width="168" height="123">
-<vector name="origin" x="72" y="107"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="2" width="154" height="177">
-<vector name="origin" x="77" y="147"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="3" width="141" height="158">
-<vector name="origin" x="72" y="136"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="4" width="136" height="124">
-<vector name="origin" x="73" y="113"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="5" width="161" height="154">
-<vector name="origin" x="86" y="115"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="6" width="185" height="165">
-<vector name="origin" x="97" y="123"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="7" width="205" height="166">
-<vector name="origin" x="107" y="123"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="8" width="214" height="174">
-<vector name="origin" x="111" y="127"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="9" width="221" height="182">
-<vector name="origin" x="113" y="131"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="10" width="150" height="7">
-<vector name="origin" x="81" y="-1"/>
-<int name="delay" value="60"/>
-</canvas>
-</imgdir>
 <int name="invisible" value="1"/>
 <imgdir name="level">
 <imgdir name="1">
@@ -3166,85 +3174,72 @@
 <int name="time" value="1"/>
 </imgdir>
 </imgdir>
-</imgdir>
-<imgdir name="1220010">
-<imgdir name="level">
-<imgdir name="1">
-<string name="hs" value="h1"/>
-<int name="x" value="10"/>
-<int name="damage" value="220"/>
-</imgdir>
-<imgdir name="2">
-<string name="hs" value="h2"/>
-<int name="x" value="20"/>
-<int name="damage" value="240"/>
-</imgdir>
-<imgdir name="3">
-<string name="hs" value="h3"/>
-<int name="x" value="30"/>
-<int name="damage" value="260"/>
-</imgdir>
-<imgdir name="4">
-<string name="hs" value="h4"/>
-<int name="x" value="40"/>
-<int name="damage" value="280"/>
-</imgdir>
-<imgdir name="5">
-<string name="hs" value="h5"/>
-<int name="x" value="50"/>
-<int name="damage" value="300"/>
-</imgdir>
-<imgdir name="6">
-<string name="hs" value="h6"/>
-<int name="x" value="60"/>
-<int name="damage" value="320"/>
-</imgdir>
-<imgdir name="7">
-<string name="hs" value="h7"/>
-<int name="x" value="70"/>
-<int name="damage" value="340"/>
-</imgdir>
-<imgdir name="8">
-<string name="hs" value="h8"/>
-<int name="x" value="80"/>
-<int name="damage" value="360"/>
-</imgdir>
-<imgdir name="9">
-<string name="hs" value="h9"/>
-<int name="x" value="90"/>
-<int name="damage" value="380"/>
-</imgdir>
-<imgdir name="10">
-<string name="hs" value="h10"/>
-<int name="x" value="100"/>
-<int name="damage" value="400"/>
-</imgdir>
-</imgdir>
-<imgdir name="req">
-<int name="1211002" value="30"/>
-</imgdir>
-<int name="invisible" value="1"/>
-<canvas name="icon" width="32" height="32">
-<vector name="origin" x="0" y="32"/>
-<int name="z" value="0"/>
+<imgdir name="effect">
+<canvas name="0" width="71" height="77">
+<vector name="origin" x="39" y="145"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="96ca94b5f20eabd6ae80313c79929c16899892adeb5f187d825de2388d14eba3"/>
 </canvas>
-<canvas name="iconMouseOver" width="32" height="32">
-<vector name="origin" x="0" y="32"/>
-<int name="z" value="0"/>
+<canvas name="1" width="76" height="78">
+<vector name="origin" x="45" y="148"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="86fb81366d599d8ceb5c9524140e028d7cf3b7ed2e1c4bf2296e235e277b2a5d"/>
 </canvas>
-<canvas name="iconDisabled" width="32" height="32">
-<vector name="origin" x="0" y="32"/>
-<int name="z" value="0"/>
+<canvas name="2" width="80" height="85">
+<vector name="origin" x="46" y="152"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="810628e76c4d5a596c5825b13315cf26bfc391558e978c19d0176997ea27907a"/>
 </canvas>
-<imgdir name="finalAttack">
-<imgdir name="1200002">
-<int name="0" value="30"/>
-<int name="1" value="40"/>
-</imgdir>
-<imgdir name="1200003">
-<int name="0" value="32"/>
-<int name="1" value="42"/>
-</imgdir>
+<canvas name="3" width="80" height="85">
+<vector name="origin" x="46" y="153"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="84f4adf5e05de8947534e98fe99960c4123da3770abc618ab3a793c3172a39b6"/>
+</canvas>
+<canvas name="4" width="85" height="95">
+<vector name="origin" x="48" y="161"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="446fb33882b68dfedcc3c7eea47d73a7ee24511967da6dfb5e9516e85395308b"/>
+</canvas>
+<canvas name="5" width="137" height="135">
+<vector name="origin" x="73" y="183"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="632b7132f2e723b63174a325ba0a43e20ce253d02fe56608a584eec908cce438"/>
+</canvas>
+<canvas name="6" width="147" height="146">
+<vector name="origin" x="78" y="194"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="0113e5cdf985591130df5f59a768c53ab13f4fbd617944454d2d7baae93d42f7"/>
+</canvas>
+<canvas name="7" width="189" height="230">
+<vector name="origin" x="98" y="234"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="982e364baed3ee122edc8f11234a0425b255445ab6cc8625464eee67c70215c5"/>
+</canvas>
+<canvas name="8" width="184" height="231">
+<vector name="origin" x="93" y="231"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="d9437e7dd6d277c2de4a77ed6d46a4eaebcabb605cd49b15f86adfb39eae9f00"/>
+</canvas>
+<canvas name="9" width="180" height="234">
+<vector name="origin" x="90" y="231"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="dfd0cb3ace0e4ee68deef48a855c75b9055ec64211fe4c67934ff9076abf8441"/>
+</canvas>
+<canvas name="10" width="151" height="225">
+<vector name="origin" x="78" y="220"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="65f1c457b8959c3c205f1bce5f188c0233a8452f1971eab1cd83448a93d3c7e0"/>
+</canvas>
+<canvas name="11" width="139" height="212">
+<vector name="origin" x="74" y="204"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="1836bdfac66d838cf9de39ffade6844e08ec7a6ab1d77324597787456490be70"/>
+</canvas>
+<canvas name="12" width="132" height="203">
+<vector name="origin" x="71" y="195"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="055762281ba609f5efa04f77e079caaa52684043f5f692ffafe17ebeb08755e8"/>
+</canvas>
 </imgdir>
 </imgdir>
 <imgdir name="1221011">
@@ -3265,402 +3260,484 @@
 <imgdir name="1">
 <string name="hs" value="h1"/>
 <int name="mpCon" value="300"/>
-<int name="damage" value="350"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="190"/>
 </imgdir>
 <imgdir name="2">
 <string name="hs" value="h2"/>
-<int name="damage" value="400"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="200"/>
 </imgdir>
 <imgdir name="3">
 <string name="hs" value="h3"/>
-<int name="damage" value="450"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="210"/>
 </imgdir>
 <imgdir name="4">
 <string name="hs" value="h4"/>
-<int name="damage" value="500"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="220"/>
 </imgdir>
 <imgdir name="5">
 <string name="hs" value="h5"/>
-<int name="damage" value="550"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="230"/>
 </imgdir>
 <imgdir name="6">
 <string name="hs" value="h6"/>
-<int name="damage" value="600"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="240"/>
 </imgdir>
 <imgdir name="7">
 <string name="hs" value="h7"/>
-<int name="damage" value="650"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="250"/>
 </imgdir>
 <imgdir name="8">
 <string name="hs" value="h8"/>
-<int name="damage" value="700"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="260"/>
 </imgdir>
 <imgdir name="9">
 <string name="hs" value="h9"/>
-<int name="damage" value="750"/>
 <int name="mpCon" value="300"/>
-<vector name="lt" x="-200" y="-150"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="270"/>
 </imgdir>
 <imgdir name="10">
 <string name="hs" value="h10"/>
-<int name="damage" value="800"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="5"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="280"/>
 </imgdir>
 <imgdir name="11">
 <string name="hs" value="h11"/>
-<int name="damage" value="850"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="290"/>
 </imgdir>
 <imgdir name="12">
 <string name="hs" value="h12"/>
-<int name="damage" value="900"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="300"/>
 </imgdir>
 <imgdir name="13">
 <string name="hs" value="h13"/>
-<int name="damage" value="950"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="310"/>
 </imgdir>
 <imgdir name="14">
 <string name="hs" value="h14"/>
-<int name="damage" value="1000"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="320"/>
 </imgdir>
 <imgdir name="15">
 <string name="hs" value="h15"/>
-<int name="damage" value="1050"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="330"/>
 </imgdir>
 <imgdir name="16">
 <string name="hs" value="h16"/>
-<int name="damage" value="1100"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="340"/>
 </imgdir>
 <imgdir name="17">
 <string name="hs" value="h17"/>
-<int name="damage" value="1150"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="350"/>
 </imgdir>
 <imgdir name="18">
 <string name="hs" value="h18"/>
-<int name="damage" value="1200"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="360"/>
 </imgdir>
 <imgdir name="19">
 <string name="hs" value="h19"/>
-<int name="damage" value="1250"/>
 <int name="mpCon" value="300"/>
-<int name="mobCount" value="10"/>
-<vector name="rb" x="200" y="50"/>
-<vector name="lt" x="-200" y="-150"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="370"/>
 </imgdir>
 <imgdir name="20">
 <string name="hs" value="h20"/>
-<int name="damage" value="1300"/>
-<vector name="lt" x="-200" y="-150"/>
-<vector name="rb" x="200" y="50"/>
-<int name="mobCount" value="10"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="380"/>
 </imgdir>
 <imgdir name="21">
 <string name="hs" value="h21"/>
-<int name="damage" value="1350"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="390"/>
 </imgdir>
 <imgdir name="22">
 <string name="hs" value="h22"/>
-<int name="damage" value="1400"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="400"/>
 </imgdir>
 <imgdir name="23">
 <string name="hs" value="h23"/>
-<int name="damage" value="1450"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="410"/>
 </imgdir>
 <imgdir name="24">
 <string name="hs" value="h24"/>
-<int name="damage" value="1500"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="420"/>
 </imgdir>
 <imgdir name="25">
 <string name="hs" value="h25"/>
-<int name="damage" value="1550"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="430"/>
 </imgdir>
 <imgdir name="26">
 <string name="hs" value="h26"/>
-<int name="damage" value="1600"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="440"/>
 </imgdir>
 <imgdir name="27">
 <string name="hs" value="h27"/>
-<int name="damage" value="1650"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="450"/>
 </imgdir>
 <imgdir name="28">
 <string name="hs" value="h28"/>
-<int name="damage" value="1700"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="460"/>
 </imgdir>
 <imgdir name="29">
 <string name="hs" value="h29"/>
-<int name="damage" value="1750"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="470"/>
 </imgdir>
 <imgdir name="30">
 <string name="hs" value="h30"/>
-<int name="damage" value="1800"/>
-<vector name="lt" x="-400" y="-350"/>
-<vector name="rb" x="400" y="250"/>
-<int name="mobCount" value="15"/>
 <int name="mpCon" value="300"/>
-</imgdir>
-</imgdir>
-<imgdir name="effect">
-<canvas name="0" width="133" height="155">
-<vector name="origin" x="25" y="151"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="1" width="135" height="148">
-<vector name="origin" x="34" y="147"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="2" width="132" height="138">
-<vector name="origin" x="41" y="137"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="3" width="127" height="127">
-<vector name="origin" x="47" y="126"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="4" width="133" height="115">
-<vector name="origin" x="51" y="114"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="5" width="132" height="115">
-<vector name="origin" x="49" y="114"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="6" width="148" height="115">
-<vector name="origin" x="65" y="114"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="7" width="148" height="116">
-<vector name="origin" x="65" y="115"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="8" width="147" height="116">
-<vector name="origin" x="64" y="115"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="9" width="145" height="116">
-<vector name="origin" x="62" y="115"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="10" width="143" height="116">
-<vector name="origin" x="60" y="115"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="11" width="133" height="116">
-<vector name="origin" x="51" y="115"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="12" width="110" height="119">
-<vector name="origin" x="39" y="118"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="13" width="234" height="132">
-<vector name="origin" x="183" y="123"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="14" width="241" height="346">
-<vector name="origin" x="181" y="336"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="15" width="244" height="344">
-<vector name="origin" x="184" y="334"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="16" width="254" height="377">
-<vector name="origin" x="190" y="369"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="17" width="253" height="364">
-<vector name="origin" x="190" y="356"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="18" width="246" height="356">
-<vector name="origin" x="189" y="350"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="19" width="162" height="299">
-<vector name="origin" x="190" y="293"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="20" width="167" height="114">
-<vector name="origin" x="192" y="110"/>
-<int name="delay" value="120"/>
-</canvas>
-<canvas name="21" width="172" height="112">
-<vector name="origin" x="195" y="110"/>
-<int name="delay" value="120"/>
-</canvas>
-</imgdir>
-<imgdir name="hit">
-<imgdir name="0">
-<canvas name="0" width="28" height="19">
-<vector name="origin" x="13" y="9"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="1" width="60" height="23">
-<vector name="origin" x="29" y="11"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="2" width="84" height="27">
-<vector name="origin" x="41" y="13"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="3" width="88" height="29">
-<vector name="origin" x="43" y="14"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="4" width="88" height="29">
-<vector name="origin" x="43" y="14"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="5" width="88" height="29">
-<vector name="origin" x="43" y="14"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="6" width="124" height="110">
-<vector name="origin" x="58" y="65"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="7" width="112" height="111">
-<vector name="origin" x="58" y="57"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="8" width="117" height="115">
-<vector name="origin" x="60" y="58"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="9" width="108" height="103">
-<vector name="origin" x="56" y="52"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="10" width="88" height="93">
-<vector name="origin" x="43" y="46"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="11" width="88" height="30">
-<vector name="origin" x="43" y="14"/>
-<int name="delay" value="180"/>
-</canvas>
-<canvas name="12" width="86" height="27">
-<vector name="origin" x="42" y="13"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="13" width="84" height="25">
-<vector name="origin" x="41" y="12"/>
-<int name="delay" value="60"/>
-</canvas>
-<canvas name="14" width="76" height="17">
-<vector name="origin" x="37" y="8"/>
-<int name="delay" value="60"/>
-</canvas>
+<int name="mobCount" value="15"/>
+<vector name="rb" x="350" y="350"/>
+<vector name="lt" x="-350" y="-350"/>
+<int name="damage" value="480"/>
 </imgdir>
 </imgdir>
 <imgdir name="action">
 <string name="0" value="sanctuary"/>
 </imgdir>
 <int name="invisible" value="1"/>
+<imgdir name="hit">
+<imgdir name="0">
+<canvas name="0" width="157" height="180">
+<vector name="origin" x="75" y="93"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="28a7f40208948ade5e7850ab9645b16724b95d2f7edfe7ffd6e63d268b32a019"/>
+</canvas>
+<canvas name="1" width="157" height="160">
+<vector name="origin" x="77" y="78"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="ca3192e71ac1e7172d690a852988971fce859cfd8b963134564b43bf687cf1df"/>
+</canvas>
+<canvas name="2" width="177" height="173">
+<vector name="origin" x="87" y="86"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="701da425f9c11be21d21e8943b60f9b2b8dd160d3fe0b0d36f54aae8e489531d"/>
+</canvas>
+<canvas name="3" width="175" height="166">
+<vector name="origin" x="86" y="82"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="98d074512cc4310b81290ff690f0870e8604bcfdb8e78dc23f9c51f9df2e4719"/>
+</canvas>
+<canvas name="4" width="159" height="119">
+<vector name="origin" x="78" y="59"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="ef4be726870a4c1d847349b45e17913355029edd61499876fb7d53cd742c604a"/>
+</canvas>
+<canvas name="5" width="147" height="74">
+<vector name="origin" x="72" y="37"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="67992f8f62a0aaf41483eef528c64a2af94e47887fc512213813ef36ef7f55d9"/>
+</canvas>
+<canvas name="6" width="146" height="63">
+<vector name="origin" x="72" y="32"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="d46aac4e30dcc913f724470721a3f87c7012bb1093a7dcc068117a2985cc804b"/>
+</canvas>
+<canvas name="7" width="23" height="18">
+<vector name="origin" x="31" y="32"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="c07cabc0eb018b2d3eec1274428946aca7fc362aa3d992a7c8317de1d18ed2af"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="effect">
+<canvas name="0" width="208" height="183">
+<vector name="origin" x="112" y="112"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="edab02278915118fa34755e9f45036fd823835cd924675553eee499db4ca0ce3"/>
+</canvas>
+<canvas name="1" width="320" height="346">
+<vector name="origin" x="147" y="175"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="919f518216af4bcdbe6887c1002ac854b974855d97a8c0936db7814130f48e95"/>
+</canvas>
+<canvas name="2" width="288" height="349">
+<vector name="origin" x="142" y="186"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="a5b765cd0225dc72e70221bb826edc74646dfa29a63113d21b1cad5135486943"/>
+</canvas>
+<canvas name="3" width="260" height="343">
+<vector name="origin" x="135" y="189"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="ab2f97d2a5787dec12f04dde0cdafbaeead2da6257a37e0a24de4a52d7cf844e"/>
+</canvas>
+<canvas name="4" width="265" height="280">
+<vector name="origin" x="130" y="197"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="eeac07cde1adf0eb4400847f5d612e20d0d29314612d9df14a27e1149bb2c342"/>
+</canvas>
+<canvas name="5" width="243" height="279">
+<vector name="origin" x="108" y="198"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="863209aeb3020d8b8bbd739009afe305239022b0a7ae78ce52721e8b3d5f42e8"/>
+</canvas>
+<canvas name="6" width="203" height="260">
+<vector name="origin" x="68" y="198"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="58073989610b8a02ce38c39a6722f0dfa8c2679125df9f097ddc3c79a8ae2aa7"/>
+</canvas>
+<canvas name="7" width="171" height="228">
+<vector name="origin" x="36" y="198"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="e41c26ff7b26bea8fd9c601e68152d1e7d22aae9f08629abdc96fe722b203540"/>
+</canvas>
+<canvas name="8" width="165" height="203">
+<vector name="origin" x="30" y="195"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="fe7ff58248af9fbd9acf6a02929ac1d5a5e7b85963aff34ae4115fff0e318751"/>
+</canvas>
+<canvas name="9" width="210" height="208">
+<vector name="origin" x="37" y="206"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="d6a2e02123474d8df6fee7782c5427624d7ef0e22c8028d0ee0874f04b10d05b"/>
+</canvas>
+<canvas name="10" width="221" height="211">
+<vector name="origin" x="35" y="208"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="8cc3936dcf3bf345c7578cb8128ee6d0dcf20afe5bdc0c0a42ee6d4b204eb9df"/>
+</canvas>
+<canvas name="11" width="221" height="213">
+<vector name="origin" x="35" y="210"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="4dbb06db589382b1a288a7c2fa7519a186ee29e48164ec712daba4aeda876764"/>
+</canvas>
+<canvas name="12" width="221" height="214">
+<vector name="origin" x="35" y="211"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="ca18c268cc037efcbf732aa228d8f70cf3954b2c00311908507a18281afc80a4"/>
+</canvas>
+<canvas name="13" width="221" height="215">
+<vector name="origin" x="35" y="212"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="01028ee722839fe2cd59f3fa5c1fab1cbea13cc48ed3d07fc0b68ba9cb99e75b"/>
+</canvas>
+<canvas name="14" width="221" height="216">
+<vector name="origin" x="35" y="213"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="5da9dcf53d2d11a156acf3312e00d9121b0fe6ab4524c1119f285645c18cd8d0"/>
+</canvas>
+<canvas name="15" width="221" height="217">
+<vector name="origin" x="35" y="214"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="f32b40023ea2ce7ec27542c79e513f1d1da906f63588ccadd8cc97faa18972e6"/>
+</canvas>
+<canvas name="16" width="554" height="428">
+<vector name="origin" x="453" y="403"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="0d17021ea9d270a0475355b2780e90c7ba6be4166255de605038d6c2c09fe1c2"/>
+</canvas>
+<canvas name="17" width="564" height="445">
+<vector name="origin" x="458" y="421"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="60326e8e5c5bd8d0d01a3239f3a592a2d8569ec588c890f5e327bff25f591470"/>
+</canvas>
+<canvas name="18" width="568" height="429">
+<vector name="origin" x="460" y="403"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="28d3d1601757f9c6e412fec316c4c7d897c9fc441f8fe0bf9935b6f987db0373"/>
+</canvas>
+<canvas name="19" width="568" height="427">
+<vector name="origin" x="460" y="403"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="899a1bdd8a7b9bce7337b120bffee082c1bfabfc832f45bbdfc82f1cbdc08d82"/>
+</canvas>
+<canvas name="20" width="530" height="428">
+<vector name="origin" x="441" y="418"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="dedec3f2d938ff4c49472a376ba60453677cc1c2b819258b7bc18d85ca1a4a60"/>
+</canvas>
+<canvas name="21" width="291" height="413">
+<vector name="origin" x="295" y="403"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="90b09d47aae97032c42d5ec2c00fba66485f1f93e91b0c0d386883a276f90f9f"/>
+</canvas>
+<canvas name="22" width="259" height="415">
+<vector name="origin" x="298" y="405"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="c79a863d6ce8bf890f67932c92bd75a92542c7770dd933dcc55722fe68a0fb60"/>
+</canvas>
+<canvas name="23" width="44" height="129">
+<vector name="origin" x="199" y="169"/>
+<int name="delay" value="30"/>
+<string name="_hash" value="3ae66e0c8f46d223bedbf43fc08174728ca948caabe1454f1a28c515d6e01f6b"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="1220010">
+<imgdir name="level">
+<imgdir name="1">
+<string name="hs" value="h1"/>
+<int name="x" value="10"/>
+<int name="damage" value="260"/>
+</imgdir>
+<imgdir name="2">
+<string name="hs" value="h2"/>
+<int name="x" value="20"/>
+<int name="damage" value="270"/>
+</imgdir>
+<imgdir name="3">
+<string name="hs" value="h3"/>
+<int name="x" value="30"/>
+<int name="damage" value="280"/>
+</imgdir>
+<imgdir name="4">
+<string name="hs" value="h4"/>
+<int name="x" value="40"/>
+<int name="damage" value="290"/>
+</imgdir>
+<imgdir name="5">
+<string name="hs" value="h5"/>
+<int name="x" value="50"/>
+<int name="damage" value="300"/>
+</imgdir>
+<imgdir name="6">
+<string name="hs" value="h6"/>
+<int name="x" value="60"/>
+<int name="damage" value="310"/>
+</imgdir>
+<imgdir name="7">
+<string name="hs" value="h7"/>
+<int name="x" value="70"/>
+<int name="damage" value="320"/>
+</imgdir>
+<imgdir name="8">
+<string name="hs" value="h8"/>
+<int name="x" value="80"/>
+<int name="damage" value="330"/>
+</imgdir>
+<imgdir name="9">
+<string name="hs" value="h9"/>
+<int name="x" value="90"/>
+<int name="damage" value="340"/>
+</imgdir>
+<imgdir name="10">
+<string name="hs" value="h10"/>
+<int name="x" value="100"/>
+<int name="damage" value="350"/>
+</imgdir>
+</imgdir>
+<imgdir name="req">
+<int name="1211002" value="30"/>
+</imgdir>
+<int name="invisible" value="1"/>
+<canvas name="icon" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="iconMouseOver" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="iconDisabled" width="32" height="32">
+<vector name="origin" x="0" y="32"/>
+<int name="z" value="0"/>
+</canvas>
 </imgdir>
 </imgdir>
 </imgdir>
