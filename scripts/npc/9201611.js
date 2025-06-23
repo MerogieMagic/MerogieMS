@@ -31,6 +31,7 @@ function start() {
     status = 0;
     cm.sendNext("Hello! I'm Slimy's Subordinate! I facilitate Weapon Upgrading and Rebirths, what do you want to do today?");
 }
+
 // ============================= Main NPC Chat Sequence =============================
 function action(mode, type, selection) {
     if (mode !== 1) return cm.dispose();
