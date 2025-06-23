@@ -1612,4 +1612,8 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
     public void sendCashNoti(String text) {
         getPlayer().sendPacket(PacketCreator.earnTitleMessage(text));
     }
+
+    public void convertItemFlag(short item) {
+
+    }
 }
