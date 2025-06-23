@@ -229,12 +229,12 @@ function preview(slot, upgradeNormal) {
 
         var msg = [
             "Upgrading will change stats as follows:",
-            "STR: " + selectedItem.getStr() + " to " + newStats.str + " (x" + newStats.mult[0].toFixed(2) + ")",
-            "DEX: " + selectedItem.getDex() + " to " + newStats.dex + " (x" + newStats.mult[1].toFixed(2) + ")",
-            "INT: " + selectedItem.getInt() + " to " + newStats.int + " (x" + newStats.mult[2].toFixed(2) + ")",
-            "LUK: " + selectedItem.getLuk() + " to " + newStats.luk + " (x" + newStats.mult[3].toFixed(2) + ")",
-            "WATK: " + selectedItem.getWatk() + " to " + newStats.watk + " (x" + newStats.mult[4].toFixed(2) + ")",
-            "MATK: " + selectedItem.getMatk() + " to " + newStats.matk + " (x" + newStats.mult[5].toFixed(2) + ")",
+            "STR: " + selectedItem.getStr() + " to " + newStats.str + " (x" + newStats.mult[0].toFixed(3) + ")",
+            "DEX: " + selectedItem.getDex() + " to " + newStats.dex + " (x" + newStats.mult[1].toFixed(3) + ")",
+            "INT: " + selectedItem.getInt() + " to " + newStats.int + " (x" + newStats.mult[2].toFixed(3) + ")",
+            "LUK: " + selectedItem.getLuk() + " to " + newStats.luk + " (x" + newStats.mult[3].toFixed(3) + ")",
+            "WATK: " + selectedItem.getWatk() + " to " + newStats.watk + " (x" + newStats.mult[4].toFixed(3) + ")",
+            "MATK: " + selectedItem.getMatk() + " to " + newStats.matk + " (x" + newStats.mult[5].toFixed(3) + ")",
             "WDEF: " + selectedItem.getWdef() + " to " + newStats.wdef,
             "MDEF: " + selectedItem.getMdef() + " to " + newStats.mdef,
             "Cost: " + format(cfg.fee) + " + " + amt + "x#v" + mat + "#"
