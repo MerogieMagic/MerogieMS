@@ -51,9 +51,9 @@ function action(mode, type, selection) {
     } else if (status === 20) {
 //        preview stats with normal roll
 //        2 options given here:
-//          0: Upgrade!
-//          1: Reroll
-//          if selection == 0 : status == 20
+//          0: Reroll
+//          1: Upgrade!
+//          if selection == 1 : status == 20
 //          else status == 19: action(1, 0, undefined)
         if (!reroll) {
             slot = selection;
@@ -62,7 +62,7 @@ function action(mode, type, selection) {
     } else if (status === 21) {
 //        Handle weapon upgrade -- normal tier
 //        cm.dispose()
-        if (selection == 1) { // reroll
+        if (selection == 0) { // reroll
             status = 19;
             reroll = true;
             action(1, 0, 0);
@@ -72,9 +72,9 @@ function action(mode, type, selection) {
     } else if (status === 30) {
 //        preview stats with premium roll
 //        2 options given here:
-//          0: Upgrade!
-//          1: Reroll
-//          if selection == 0 : status == 30
+//          0: Reroll
+//          1: Upgrade!
+//          if selection == 1 : status == 30
 //          else status == 29: action(1, 0, undefined)
         if (!reroll) {
             slot = selection;
@@ -83,7 +83,7 @@ function action(mode, type, selection) {
     } else if (status === 31) {
 //        Handle weapon upgrade -- premium tier
 //        cm.dispose()
-        if (selection == 1) { // reroll
+        if (selection == 0) { // reroll
             status = 29;
             reroll = true;
             action(1, 0, 0);
@@ -240,7 +240,7 @@ function preview(slot, upgradeNormal) {
             "Cost: " + format(cfg.fee) + " + " + amt + "x#v" + mat + "#"
         ].join("\r\n");
 
-        return cm.sendSimple(msg + warning + "\r\n#L0#Proceed with upgrade#l\r\n#L1#Reroll preview stats#l");
+        return cm.sendSimple(msg + warning + "\r\n#L0#Reroll preview stats#l\r\n#L1#Proceed with upgrade#l");
     }
 
     // Otherwise, nothing to do
