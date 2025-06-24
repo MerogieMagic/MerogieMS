@@ -22,144 +22,144 @@
 <int name="weapon" value="49"/>
 <imgdir name="level">
 <imgdir name="1">
-<string name="hs" value="h1"/>
 <int name="mpCon" value="30"/>
-<int name="damage" value="250"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="damage" value="145"/>
+<string name="hs" value="h1"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="2">
 <string name="hs" value="h2"/>
-<int name="damage" value="255"/>
+<int name="damage" value="150"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="3">
 <string name="hs" value="h3"/>
-<int name="damage" value="260"/>
+<int name="damage" value="155"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="4">
 <string name="hs" value="h4"/>
-<int name="damage" value="265"/>
+<int name="damage" value="160"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="5">
 <string name="hs" value="h5"/>
-<int name="damage" value="270"/>
+<int name="damage" value="165"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="6">
 <string name="hs" value="h6"/>
-<int name="damage" value="275"/>
+<int name="damage" value="170"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="7">
 <string name="hs" value="h7"/>
-<int name="damage" value="280"/>
+<int name="damage" value="175"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="8">
 <string name="hs" value="h8"/>
-<int name="damage" value="285"/>
+<int name="damage" value="180"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="9">
 <string name="hs" value="h9"/>
-<int name="damage" value="290"/>
+<int name="damage" value="185"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="10">
 <string name="hs" value="h10"/>
-<int name="damage" value="295"/>
+<int name="damage" value="190"/>
 <int name="mpCon" value="30"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="375"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="11">
 <string name="hs" value="h11"/>
-<int name="damage" value="300"/>
+<int name="damage" value="195"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="12">
 <string name="hs" value="h12"/>
-<int name="damage" value="305"/>
+<int name="damage" value="200"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="13">
 <string name="hs" value="h13"/>
-<int name="damage" value="310"/>
+<int name="damage" value="205"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="14">
 <string name="hs" value="h14"/>
-<int name="damage" value="315"/>
+<int name="damage" value="210"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="15">
 <string name="hs" value="h15"/>
-<int name="damage" value="320"/>
+<int name="damage" value="215"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="16">
 <string name="hs" value="h16"/>
-<int name="damage" value="325"/>
+<int name="damage" value="220"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="17">
 <string name="hs" value="h17"/>
-<int name="damage" value="330"/>
+<int name="damage" value="225"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="18">
 <string name="hs" value="h18"/>
-<int name="damage" value="335"/>
+<int name="damage" value="230"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="19">
 <string name="hs" value="h19"/>
-<int name="damage" value="340"/>
+<int name="damage" value="235"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 <imgdir name="20">
 <string name="hs" value="h20"/>
-<int name="damage" value="345"/>
+<int name="damage" value="240"/>
 <int name="mpCon" value="40"/>
-<int name="bulletCount" value="4"/>
-<int name="range" value="450"/>
+<int name="bulletCount" value="3"/>
+<int name="range" value="540"/>
 </imgdir>
 </imgdir>
 <imgdir name="effect">
@@ -687,209 +687,209 @@
 <imgdir name="1">
 <string name="hs" value="h1"/>
 <int name="mpCon" value="80"/>
-<int name="pad" value="60"/>
+<int name="pad" value="30"/>
 <int name="time" value="30"/>
 <int name="cooltime" value="1"/>
 </imgdir>
 <imgdir name="2">
 <string name="hs" value="h2"/>
-<int name="pad" value="120"/>
+<int name="pad" value="60"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="3">
 <string name="hs" value="h3"/>
-<int name="pad" value="180"/>
+<int name="pad" value="90"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="4">
 <string name="hs" value="h4"/>
-<int name="pad" value="240"/>
+<int name="pad" value="120"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="5">
 <string name="hs" value="h5"/>
-<int name="pad" value="300"/>
+<int name="pad" value="150"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="6">
 <string name="hs" value="h6"/>
-<int name="pad" value="360"/>
+<int name="pad" value="180"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="7">
 <string name="hs" value="h7"/>
-<int name="pad" value="420"/>
+<int name="pad" value="210"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="8">
 <string name="hs" value="h8"/>
-<int name="pad" value="480"/>
+<int name="pad" value="240"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="9">
 <string name="hs" value="h9"/>
-<int name="pad" value="540"/>
+<int name="pad" value="270"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="10">
 <string name="hs" value="h10"/>
-<int name="pad" value="600"/>
+<int name="pad" value="300"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="11">
 <string name="hs" value="h11"/>
-<int name="pad" value="660"/>
+<int name="pad" value="330"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="12">
 <string name="hs" value="h12"/>
-<int name="pad" value="720"/>
+<int name="pad" value="360"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="13">
 <string name="hs" value="h13"/>
-<int name="pad" value="780"/>
+<int name="pad" value="390"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="14">
 <string name="hs" value="h14"/>
-<int name="pad" value="840"/>
+<int name="pad" value="420"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="15">
 <string name="hs" value="h15"/>
-<int name="pad" value="900"/>
+<int name="pad" value="450"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="80"/>
 </imgdir>
 <imgdir name="16">
 <string name="hs" value="h16"/>
-<int name="pad" value="960"/>
+<int name="pad" value="480"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="17">
 <string name="hs" value="h17"/>
-<int name="pad" value="1020"/>
+<int name="pad" value="510"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="18">
 <string name="hs" value="h18"/>
-<int name="pad" value="1080"/>
+<int name="pad" value="540"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="19">
 <string name="hs" value="h19"/>
-<int name="pad" value="1140"/>
+<int name="pad" value="570"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="20">
 <string name="hs" value="h20"/>
-<int name="pad" value="1200"/>
+<int name="pad" value="600"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="21">
 <string name="hs" value="h21"/>
-<int name="pad" value="1260"/>
+<int name="pad" value="630"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="22">
 <string name="hs" value="h22"/>
-<int name="pad" value="1320"/>
+<int name="pad" value="660"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="23">
 <string name="hs" value="h23"/>
-<int name="pad" value="1380"/>
+<int name="pad" value="690"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="24">
 <string name="hs" value="h24"/>
-<int name="pad" value="1440"/>
+<int name="pad" value="720"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="25">
 <string name="hs" value="h25"/>
-<int name="pad" value="1500"/>
+<int name="pad" value="750"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="26">
 <string name="hs" value="h26"/>
-<int name="pad" value="1560"/>
+<int name="pad" value="780"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="27">
 <string name="hs" value="h27"/>
-<int name="pad" value="1620"/>
+<int name="pad" value="810"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="28">
 <string name="hs" value="h28"/>
-<int name="pad" value="1680"/>
+<int name="pad" value="840"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="29">
 <string name="hs" value="h29"/>
-<int name="pad" value="1740"/>
+<int name="pad" value="870"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
 </imgdir>
 <imgdir name="30">
 <string name="hs" value="h30"/>
-<int name="pad" value="1800"/>
+<int name="pad" value="900"/>
 <int name="cooltime" value="1"/>
 <int name="time" value="30"/>
 <int name="mpCon" value="100"/>
