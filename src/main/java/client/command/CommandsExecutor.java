@@ -60,7 +60,7 @@ import client.command.commands.gm0.WorldChatCommand;
 import client.command.commands.gm0.UniverseChatCommand;
 import client.command.commands.gm0.SellItemsCommand;
 import client.command.commands.gm0.ExpGainCommand;
-import client.command.commands.gm0.LastLoginCommand;
+import client.command.commands.gm0.InactiveGuildMembersCommand;
 
 import client.command.commands.gm1.BossHpCommand;
 import client.command.commands.gm1.BuffMeCommand;
@@ -407,7 +407,7 @@ public class CommandsExecutor {
         addCommand("exp", 0, ExpGainCommand.class);
         addCommand("powerup",  UnlockedBuffsCommand.class);
         addCommand("tp",  TPCommand.class);
-        addCommand("lastlogin", LastLoginCommand.class);
+        addCommand("inactiveguildmembers", InactiveGuildMembersCommand.class);
 
         commandsNameDesc.add(levelCommandsCursor);
     }
