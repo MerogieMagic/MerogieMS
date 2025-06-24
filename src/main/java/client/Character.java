@@ -7712,7 +7712,9 @@ public class Character extends AbstractCharacterObject {
 
             recalcEquipStats();
 
-            localmagic = Math.min(localmagic, 2000);
+            localmagic = localmagic;
+            //localmagic = Math.min(localmagic, 2000);
+
 
             Integer hbhp = getBuffedValue(BuffStat.HYPERBODYHP);
             if (hbhp != null) {
