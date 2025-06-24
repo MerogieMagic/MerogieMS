@@ -38,31 +38,37 @@ function action(mode, type, selection) {
     if (mode !== 1) return cm.dispose();
     status++;
 
-    switch (status) {
-        case 1:
-            return choice();
-        case 2:
-            if (selection === 0) {
-                return showHammerableEquips();
-            }
-            return showScrollableEquips();
-        case 3:
-            if (hammering === true) {
-                return confirmHammerCount();
-            }
-            return showApplicableScrolls(selection);
-        case 4:
-            if (hammering === true) {
-                return hammerTime();
-            }
-            return confirmScrollCount(selection);
-        case 5:
-            if (hammering === true) {
+    try {
+        switch (status) {
+            case 1:
+                return choice();
+            case 2:
+                if (selection === 0) {
+                    return showHammerableEquips();
+                }
+                return showScrollableEquips();
+            case 3:
+                if (hammering === true) {
+                    return confirmHammerCount();
+                }
+                return showApplicableScrolls(selection);
+            case 4:
+                if (hammering === true) {
+                    return hammerTime();
+                }
+                return confirmScrollCount(selection);
+            case 5:
+                if (hammering === true) {
+                    return cm.dispose();
+                }
+                return scrollItemOrStop(mode);
+            default:
                 return cm.dispose();
-            }
-            return scrollItemOrStop(mode);
-        default:
-            return cm.dispose();
+        }
+    } catch (err) {
+        console.log("Error during auto-scroll/hammer logic: " + err);
+        cm.sendOk("Something bad happened... Anyways, bye!")
+        return cm.dispose();
     }
 }
 
@@ -79,6 +85,8 @@ function showHammerableEquips() {
     var inv = cm.getInventory(invTypeEquip);
     var lines = [];
 
+    let instance = Packages.server.ItemInformationProvider.getInstance();
+
     // Cycle through the equip inventory
     for (var slot = 1; slot <= inv.getSlotLimit(); slot++) {
 
@@ -86,11 +94,20 @@ function showHammerableEquips() {
         var item = inv.getItem(slot);
         if (!item) continue;
 
+        // Skip unscrolled equips that have no upgrade slots
+        if ((inv.getUpgradeSlots(slot) + item.getLevel()) <= 0) continue;
+
+        // Skip cash items
+        if (inv.getEquipStat(slot, "cash") === 1) continue;
+
+        // Skip based on item Id
+        if (instance.isHammerableEquip(item.getItemId()) === false) continue;
+
         // Ensure it can be hammered, then add it to the list of hammerable equips as well as increasing the required number of vicious hammers
         var viciousSlots = inv.getViciousSlots(slot);
         if (viciousSlots < 2) {
             requiredHammerCount = requiredHammerCount + (2 - viciousSlots);
-            lines.push("\t" + Packages.server.ItemInformationProvider.getInstance().getName(item.getItemId()) + " - " + (2 - viciousSlots) + " hammer slots");
+            lines.push("\t" + instance.getName(item.getItemId()) + " - " + (2 - viciousSlots) + " hammer slots");
         }
     }
 
@@ -205,6 +222,7 @@ function showApplicableScrolls(equipInvSlotNum) {
 function hammerTime() {
 
     var equipInventory = cm.getInventory(invTypeEquip);
+    let instance = Packages.server.ItemInformationProvider.getInstance();
 
     // Cycle through equip inventory
     for (var equipSlot = 1; equipSlot <= equipInventory.getSlotLimit(); equipSlot++) {
@@ -212,6 +230,15 @@ function hammerTime() {
         // Retrieve the equip inventory slot and verify it's present
         var equipItem = equipInventory.getItem(equipSlot);
         if (!equipItem) continue;
+
+        // Skip unscrolled equips that have no upgrade slots
+        if ((equipInventory.getUpgradeSlots(equipSlot) + equipItem.getLevel()) <= 0) continue;
+
+        // Skip cash items
+        if (equipInventory.getEquipStat(equipSlot, "cash") === 1) continue;
+
+        // Skip based on item Id
+        if (instance.isHammerableEquip(equipItem.getItemId()) === false) continue;
 
         // Apply hammers if applicable and update the item
         var hammeredItem = equipInventory.applyHammerToItem(equipItem);
@@ -239,7 +266,7 @@ function confirmScrollCount(useInvSlotNum) {
 
     // Get the number of upgrade slots and scroll success percentage
     equipUpgradeSlots = cm.getInventory(invTypeEquip).getUpgradeSlots(equipInvSlot);
-    scrollSuccessPercent = useInv.getScrollSuccess(scrollInvSlot);
+    scrollSuccessPercent = useInv.getEquipStat(scrollInvSlot, "success");
 
     // Calculate the number of scrolls required
     if (scrollSuccessPercent === 100) {
