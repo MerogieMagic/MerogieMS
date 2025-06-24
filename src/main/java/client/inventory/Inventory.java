@@ -24,6 +24,8 @@ package client.inventory;
 import client.Character;
 import client.Client;
 import client.inventory.manipulator.InventoryManipulator;
+import client.inventory.Equip;
+import constants.id.ItemId;
 import constants.inventory.ItemConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -289,6 +291,115 @@ public class Inventory implements Iterable<Item> {
         } finally {
             lock.unlock();
         }
+    }
+
+    // Returns the available upgrade slots for the inventory slot
+    public int getUpgradeSlots(short slot) {
+        lock.lock();
+        try {
+            Item item = inventory.get(slot);
+            Equip equip = (Equip) item;
+            return equip.getUpgradeSlots();
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    // Returns the inventory location of white scrolls
+    public byte getWhiteScrollSlot() {
+        lock.lock();
+        try {
+            for (byte slot = 1; slot <= getSlotLimit(); slot++) {
+                Item item = getItem(slot);
+                if (item != null) {
+                    if (item.getItemId() == ItemId.WHITE_SCROLL) {
+                        return slot;
+                    }
+                }
+            }
+            return -1;
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    // Returns the quantity of white scrolls in the inventory
+    public int getInventoryWhiteScrollCount() {
+        lock.lock();
+        try {
+            for (short slot = 1; slot <= getSlotLimit(); slot++) {
+                Item item = getItem(slot);
+                if (item != null) {
+                    if (item.getItemId() == ItemId.WHITE_SCROLL) {
+                        return item.getQuantity();
+                    }
+                }
+            }
+            return 0;
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    // Returns the scrolls success percentage
+    public int getScrollSuccess(short slot) {
+        lock.lock();
+        try {
+            Item item = inventory.get(slot);
+            ItemInformationProvider ii = ItemInformationProvider.getInstance();
+            Map<String, Integer> equipStats = ii.getEquipStats(item.getItemId());
+            return equipStats.get("success");
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    // Returns the scroll stat boost based on dataItem (i.e. STR/PAD/Speed)
+    public int getScrollStatBoost(short slot, String dataItem) {
+        lock.lock();
+        try {
+            Item item = inventory.get(slot);
+            ItemInformationProvider ii = ItemInformationProvider.getInstance();
+            Map<String, Integer> equipStats = ii.getEquipStats(item.getItemId());
+            String dataItemVal = String.valueOf(equipStats.get(dataItem));
+            if (dataItemVal.startsWith("null")) {
+                return 0;
+            }
+            return equipStats.get(dataItem);
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    // Returns the number of Vicious Hammer slots
+    public short getViciousSlots(short slot) {
+        lock.lock();
+        try {
+            Item item = inventory.get(slot);
+            Equip equip = (Equip) item;
+            return equip.getVicious();
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public Equip applyHammerToItem(Item item) {
+        Equip equip = (Equip) item;
+
+        lock.lock();
+        try {
+            if (equip.getVicious() == 2) { // Already fully hammered
+                return null;
+            } else if (equip.getVicious() == 0) { // No hammers used yet
+                equip.setUpgradeSlots(equip.getUpgradeSlots() + 2);
+            } else if (equip.getVicious() == 1) { // One hammer used
+                equip.setUpgradeSlots(equip.getUpgradeSlots() + 1);
+            }
+            equip.setVicious(2);
+        } finally {
+            lock.unlock();
+        }
+        return equip;
     }
 
     public void removeItem(short slot) {
