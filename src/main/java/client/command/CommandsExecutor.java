@@ -573,7 +573,7 @@ public class CommandsExecutor {
         addCommand("mobpoint", 4, MobpointRateCommand.class);
         addCommand("setitemstat", 4, SetItemStatCommand.class);
         addCommand("setitemstatrefund", 4, SetItemStatRefundCommand.class);
-        addCommand("giveitem", 4, SetItemStatRefundCommand.class);
+        addCommand("giveitem", 4, GiveItemCommand.class);
         commandsNameDesc.add(levelCommandsCursor);
     }
 
