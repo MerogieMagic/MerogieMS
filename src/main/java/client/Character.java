@@ -149,6 +149,10 @@ import server.partyquest.MonsterCarnival;
 import server.partyquest.MonsterCarnivalParty;
 import server.partyquest.PartyQuest;
 import server.quest.Quest;
+import server.ItemBuybackManager;
+import server.ItemBuybackManager.BuybackEntry;
+
+
 import tools.DatabaseConnection;
 import tools.LongTool;
 import tools.PacketCreator;
@@ -11345,4 +11349,14 @@ public class Character extends AbstractCharacterObject {
         // No matching record found -> skill not unlocked
         return false;
     }
+
+    public List<BuybackEntry> getBuybackItems() {
+        return ItemBuybackManager.getInstance().getBuybackItems(this);
+    }
+
+    public boolean buybackItem(int index) {
+        return ItemBuybackManager.getInstance().buybackItem(this, index);
+    }
+
+
 }
