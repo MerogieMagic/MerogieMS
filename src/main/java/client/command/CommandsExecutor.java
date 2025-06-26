@@ -61,6 +61,9 @@ import client.command.commands.gm0.UniverseChatCommand;
 import client.command.commands.gm0.SellItemsCommand;
 import client.command.commands.gm0.ExpGainCommand;
 import client.command.commands.gm0.InactiveGuildMembersCommand;
+import client.command.commands.gm0.SellAllCommand;
+import client.command.commands.gm0.BuybackCommand;
+
 
 import client.command.commands.gm1.BossHpCommand;
 import client.command.commands.gm1.BuffMeCommand;
@@ -408,7 +411,8 @@ public class CommandsExecutor {
         addCommand("powerup",  UnlockedBuffsCommand.class);
         addCommand("tp",  TPCommand.class);
         addCommand("inactiveguildmembers", InactiveGuildMembersCommand.class);
-
+        addCommand("sellall",  SellAllCommand.class);
+        addCommand("buyback", BuybackCommand.class);
         commandsNameDesc.add(levelCommandsCursor);
     }
 
