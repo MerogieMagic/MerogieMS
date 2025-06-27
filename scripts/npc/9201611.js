@@ -9,6 +9,8 @@ var upgradeConfigRb0 = {
     4: { fee: 275000000, mats: [{ id: hTegg,      amt: 3 }] }
 };
 
+var nxMultiplier = false;
+
 // Fees + Protection scroll
 var previewFee   = 2500000;
 var boomProtectScroll = 3020003;
@@ -42,6 +44,7 @@ function action(mode, type, selection) {
 //        0: Normal Upgrade; upgradeNormal = true
 //        1: Premium Upgrade; upgradeNormal = false
 //        2: Salvage > status === 39
+//        3: Switch on/off nx multiplier
         return Menu();
     } else if (status === 2) {
 //        Weapon selection menu to select weapon
@@ -107,9 +110,15 @@ function action(mode, type, selection) {
 
 // =============================== NPC Chat Functions ===============================
 function Menu() {
+    if (nxMultiplier) {
+        nxMultSwitch = "#gON"
+    } else {
+        nxMultSwitch = "#rOFF"
+    }
     var selStr = "\r\n#b#L0#Regular upgrades#l" +
                  "\r\n#b#L1#Premium upgrades#l" +
-                 "\r\n#b#L2#Salvage my item!#l";
+                 "\r\n#b#L2#Salvage my item!#l" +
+                 "\r\n#b#L3#Turn on Additional NX multiplier [5m per reroll]: " + nxMultSwitch + "#l";
     cm.sendSimple(selStr);
 }
 
@@ -122,6 +131,11 @@ function weaponSelection(selection) {
         status = 29; // jump to Permium Upgrade Handler
     } else if (selection === 2) {
         status = 39; // jump to salvage
+    } else if (selection === 3) {
+        nxMultiplier = !nxMultiplier
+        status = 0;
+        action(1, 0, 0);
+        return;
     } else {
         cm.sendOk("Error Encountered at weapon selection. Alert GM.")
         return cm.dispose();
@@ -190,11 +204,16 @@ function preview(slot, upgradeNormal) {
         return cm.dispose();
     }
 
+    if (nxMultiplier && cm.getCashShop().getCash(1) < 5000000) {
+        cm.sendOk("You turned on NX Multiplier but don't have enough NX to roll. Don't think I'm a 5 year old kid! I'm not easy to scam.")
+        return cm.dispose();
+    }
+
     // Assigning the stats to preview
     if (upgradeNormal) {
-        newStats = calcNewStats(selectedItem, selectedItem.getItemId());
+        newStats = calcNewStats(selectedItem, selectedItem.getItemId(), nxMultiplier);
     } else {
-        newStats = calcBetterNewStats(selectedItem, selectedItem.getItemId());
+        newStats = calcBetterNewStats(selectedItem, selectedItem.getItemId(), nxMultiplier);
     }
 
     previewFee = (upgradeNormal ? ii/2 * 100000 : ii/2 * 1000000) // cost of better rol is 10x more
@@ -234,6 +253,10 @@ function preview(slot, upgradeNormal) {
 
         // Deduct preview fee
         cm.gainMeso(-previewFee);
+        if (nxMultiplier) {
+            cm.gainCash(-5000000);
+        }
+
 
         // Calculate tentative new stats
 
@@ -264,10 +287,15 @@ function preview(slot, upgradeNormal) {
     cm.dispose();
 }
 
-function calcNewStats(item, itemId) {
+function calcNewStats(item, itemId, nxMultiplier) {
     // Main stats 40–60% increase, defs 10–20%
 //    if (parseInt(itemId/10000) < 130) {
-    var mm = () => 1.4 + Math.random() * 0.2;
+    if (nxMultiplier) {
+        var mm = () => 1.4 + Math.random() * 0.25;
+    } else {
+        var mm = () => 1.4 + Math.random() * 0.2;
+    }
+
     var dm = () => 1.1 + Math.random() * 0.1;
     var values = Array.from({ length: 6 }, mm);
     return {
@@ -291,7 +319,12 @@ function calcBetterNewStats(item, itemId) {
 //    } else {
 //        var mm = 1.4 + Math.random() * 0.2;
 //    }
-    var mm = 1.4 + Math.random() * 0.2;
+    if (nxMultiplier) {
+        var mm = 1.4 + Math.random() * 0.25;
+    } else {
+        var mm = 1.4 + Math.random() * 0.2;
+    }
+//    var mm = 1.4 + Math.random() * 0.2;
 //    var dm = () => 1.1 + Math.random() * 0.1;
     var dm = 1.1 + Math.random() * 0.1;
     var values = new Array(6).fill(mm);

@@ -309,7 +309,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 
     public void gainCash(int gain) {
         getPlayer().getCashShop().gainCash(1, gain);
-        sendPacket(PacketCreator.showCash(getPlayer()));
+        getPlayer().sendPacket(PacketCreator.earnTitleMessage(gain + " NX"));
 
     }
 
