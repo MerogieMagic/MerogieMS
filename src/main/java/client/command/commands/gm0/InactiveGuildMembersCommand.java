@@ -41,7 +41,7 @@ import java.util.List;
 
 public class InactiveGuildMembersCommand extends Command {
     {
-        setDescription("Check last login by user name");
+        setDescription("Check last login by number of days inactive");
     }
 
     @Override
