@@ -170,11 +170,27 @@ function preview(slot, upgradeNormal) {
     // All the conditional Checks
     selectedItem = cm.getInventory(1).getItem(slot);
     ii = Packages.server.ItemInformationProvider.getInstance().getEquipLevelReq(selectedItem.getItemId())
+    var lvl   = selectedItem.getItemLevel();
+    var hands = selectedItem.getHands();
 
+    // Checks before previewing
     if (!selectedItem) {
         cm.sendOk("Invalid selection.");
         return cm.dispose();
     }
+    if (0 <= hands <= 3) { // able to configure to hand different upgradeConfigRb0-3 if needed here
+        var cfg  = upgradeConfigRb0[lvl];
+    }
+    var mat  = cfg.mats[0].id;
+    var amt  = cfg.mats[0].amt;
+
+    // Check materials
+    if (!cm.haveItem(mat, amt)) {
+        cm.sendOk("You lack " + amt + "x#v" + mat + "#.");
+        return cm.dispose();
+    }
+
+    // Assigning the stats to preview
     if (upgradeNormal) {
         newStats = calcNewStats(selectedItem, selectedItem.getItemId());
     } else {
@@ -182,8 +198,8 @@ function preview(slot, upgradeNormal) {
     }
 
     previewFee = (upgradeNormal ? ii/2 * 100000 : ii/2 * 1000000) // cost of better rol is 10x more
-    var lvl   = selectedItem.getItemLevel();
-    var hands = selectedItem.getHands();
+
+
 
     // Rebirth condition: level = 5 but and not rebirthed 3 times
     if (lvl == 5 && hands <= 2) {
@@ -305,6 +321,7 @@ function doUpgrade(newStats) {
     }
     var mat  = cfg.mats[0].id;
     var amt  = cfg.mats[0].amt;
+    console.log(mat)
 
     // Check materials
     if (!cm.haveItem(mat, amt)) {
