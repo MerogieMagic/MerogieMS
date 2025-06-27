@@ -8,6 +8,7 @@ public class ItemId {
     public static final int HEART_SHAPED_CHOCOLATE = 5110000;
     public static final int HAPPY_BIRTHDAY = 2022153;
     public static final int FISHING_CHAIR = 3011000;
+    public static final int MAX_CHAIR = 3019999;
     public static final int MINI_GAME_BASE = 4080000;
     public static final int MATCH_CARDS = 4080100;
     public static final int MAGICAL_MITTEN = 1472063;
@@ -65,7 +66,7 @@ public class ItemId {
     // Chair
     public static final int RELAXER = 3010000;
     private static final int CHAIR_MIN = RELAXER;
-    private static final int CHAIR_MAX = FISHING_CHAIR;
+    private static final int CHAIR_MAX = MAX_CHAIR;
 
     public static boolean isChair(int itemId) {
 //        return itemId >= CHAIR_MIN && itemId <= CHAIR_MAX;

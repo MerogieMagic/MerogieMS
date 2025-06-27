@@ -149,6 +149,10 @@ import server.partyquest.MonsterCarnival;
 import server.partyquest.MonsterCarnivalParty;
 import server.partyquest.PartyQuest;
 import server.quest.Quest;
+import server.ItemBuybackManager;
+import server.ItemBuybackManager.BuybackEntry;
+
+
 import tools.DatabaseConnection;
 import tools.LongTool;
 import tools.PacketCreator;
@@ -6551,39 +6555,39 @@ public class Character extends AbstractCharacterObject {
     }
 
     public void setPlayerRates() {
-//        if (){
-//        this.expRate *= GameConstants.getPlayerBonusExpRate(this.level / 20);
-//        this.mesoRate *= GameConstants.getPlayerBonusMesoRate(this.level / 20);
-//        this.dropRate *= GameConstants.getPlayerBonusDropRate(this.level / 20);
-//    }
-//        if (YamlConfig.config.server.USE_CUSTOM_KEYSET) {
+        int tier = Math.min(this.level / 10, 25); // 10-level tier system, capped at 25 (for level 251–255)
+
         if (getWorldServer().getProgExpToggle()) {
-            this.expRate *= GameConstants.getPlayerBonusExpRate(this.level / 20);
-            this.mesoRate *= GameConstants.getPlayerBonusMesoRate(this.level / 20);
-            this.dropRate *= GameConstants.getPlayerBonusDropRate(this.level / 20);
+            this.expRate *= GameConstants.getPlayerBonusExpRate(tier);
+            this.mesoRate *= GameConstants.getPlayerBonusMesoRate(tier);
+            this.dropRate *= GameConstants.getPlayerBonusDropRate(tier);
         } else {
-            this.expRate *= 1;
-            this.mesoRate *= GameConstants.getPlayerBonusMesoRate(this.level / 20);
-            this.dropRate *= GameConstants.getPlayerBonusDropRate(this.level / 20);
+            this.expRate *= 1; // No exp scaling
+            this.mesoRate *= GameConstants.getPlayerBonusMesoRate(tier);
+            this.dropRate *= GameConstants.getPlayerBonusDropRate(tier);
         }
-
-
     }
 
     public void revertLastPlayerRates() {
-        this.expRate /= GameConstants.getPlayerBonusExpRate((this.level - 1) / 20);
-        this.mesoRate /= GameConstants.getPlayerBonusMesoRate((this.level - 1) / 20);
-        this.dropRate /= GameConstants.getPlayerBonusDropRate((this.level - 1) / 20);
+        int previousLevel = Math.max(this.level - 1, 1); // Ensure no negative indexing
+        int tier = Math.min(previousLevel / 10, 25);
+
+        this.expRate /= GameConstants.getPlayerBonusExpRate(tier);
+        this.mesoRate /= GameConstants.getPlayerBonusMesoRate(tier);
+        this.dropRate /= GameConstants.getPlayerBonusDropRate(tier);
     }
 
     public void revertPlayerRates() {
-        this.expRate /= GameConstants.getPlayerBonusExpRate(this.level / 20);
-        this.mesoRate /= GameConstants.getPlayerBonusMesoRate(this.level / 20);
-        this.dropRate /= GameConstants.getPlayerBonusDropRate(this.level / 20);
+        int tier = Math.min(this.level / 10, 25);
+
+        this.expRate /= GameConstants.getPlayerBonusExpRate(tier);
+        this.mesoRate /= GameConstants.getPlayerBonusMesoRate(tier);
+        this.dropRate /= GameConstants.getPlayerBonusDropRate(tier);
     }
 
     public void setWorldRates() {
         World worldz = getWorldServer();
+
         this.expRate *= worldz.getExpRate();
         this.mesoRate *= worldz.getMesoRate();
         this.dropRate *= worldz.getDropRate();
@@ -6591,10 +6595,12 @@ public class Character extends AbstractCharacterObject {
 
     public void revertWorldRates() {
         World worldz = getWorldServer();
+
         this.expRate /= worldz.getExpRate();
         this.mesoRate /= worldz.getMesoRate();
         this.dropRate /= worldz.getDropRate();
     }
+
 
     private void setCouponRates() {
         List<Integer> couponEffects;
@@ -11345,4 +11351,14 @@ public class Character extends AbstractCharacterObject {
         // No matching record found -> skill not unlocked
         return false;
     }
+
+    public List<BuybackEntry> getBuybackItems() {
+        return ItemBuybackManager.getInstance().getBuybackItems(this);
+    }
+
+    public boolean buybackItem(int index) {
+        return ItemBuybackManager.getInstance().buybackItem(this, index);
+    }
+
+
 }

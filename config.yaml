@@ -8,11 +8,11 @@ worlds:
     event_message: Scania!
     why_am_i_recommended: Welcome to Scania!
     channels: 5
-    exp_rate: 2
-    meso_rate: 25
+    exp_rate: 1
+    meso_rate: 30
     drop_rate: 6
     boss_drop_rate: 10                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
-    quest_rate: 3                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
+    quest_rate: 4                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
     fishing_rate: 10                        #Multiplier for success likelihood on meso thrown during fishing.
     travel_rate: 10                         #Means of transportation rides/departs using 1/N of the default time.
 
@@ -27,10 +27,10 @@ worlds:
     why_am_i_recommended: Welcome to Bera!
     channels: 5
     exp_rate: 1
-    meso_rate: 25
+    meso_rate: 30
     drop_rate: 6
     boss_drop_rate: 10                       #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
-    quest_rate: 3                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
+    quest_rate: 4                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
     fishing_rate: 10                         #Multiplier for success likelihood on meso thrown during fishing.
     travel_rate: 10                         #Means of transportation rides/departs using 1/N of the default time.
 

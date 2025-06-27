@@ -47,7 +47,8 @@ public final class ItemConstants {
     public final static short PET_COME = 0x80;
     public final static short ACCOUNT_SHARING = 0x100;
     public final static short MERGE_UNTRADEABLE = 0x200;
-
+    // Add this new flag for sellall protection
+    public final static short SELLALL_PROTECTED = 0x400;  // hex value for bitwise operations
     public final static boolean EXPIRING_ITEMS = true;
     public final static Set<Integer> permanentItemids = new HashSet<>();
 

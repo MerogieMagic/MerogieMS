@@ -24,10 +24,99 @@ public class GameConstants {
     public static final String[] stats = {"tuc", "reqLevel", "reqJob", "reqSTR", "reqDEX", "reqINT", "reqLUK", "reqPOP", "cash", "cursed", "success", "setItemID", "equipTradeBlock", "durability", "randOption", "randStat", "masterLevel", "reqSkillLevel", "elemDefault", "incRMAS", "incRMAF", "incRMAI", "incRMAL", "canLevel", "skill", "charmEXP"};
     public static final int[] CASH_DATA = new int[]{50200004, 50200069, 50200117, 50100008, 50000047};
 
-    // Ronan's rates upgrade system
-    private static final int[] DROP_RATE_GAIN =  {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};    //old {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
-    private static final int[] MESO_RATE_GAIN = {4, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};     //old {1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105};
-    private static final int[] EXP_RATE_GAIN = {1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 5, 5, 5};    //fibonacci :3 {1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610}
+    // EXP Rate gain per level tier (1–10, 11–20, ..., 251–255)
+// Gradually increases with level to reward progression
+    private static final int[] EXP_RATE_GAIN = {
+            1,  // 1–10
+            2,  // 11–20
+            2,  // 21–30
+            3,  // 31–40
+            3,  // 41–50
+            3,  // 51–60
+            4,  // 61–70
+            4,  // 71–80
+            4,  // 81–90
+            5,  // 91–100
+            5,  // 101–110
+            5,  // 111–120
+            6,  // 121–130
+            6,  // 131–140
+            6,  // 141–150
+            8,  // 151–160
+            9,  // 161–170
+            10,  // 171–180
+            10,  // 181–190
+            10,  // 191–200
+            10, // 201–210
+            10, // 211–220
+            10, // 221–230
+            10, // 231–240
+            10, // 241–250
+            10  // 251–255
+    };
+
+    // MESO Rate gain per level tier
+// Starts high and scales down to reward low-level farming
+    private static final int[] MESO_RATE_GAIN = {
+            13, // 1–10
+            12, // 11–20
+            11,  // 21–30
+            10,  // 31–40
+            9,  // 41–50
+            8,  // 51–60
+            7,  // 61–70
+            6,  // 71–80
+            5,  // 81–90
+            4,  // 91–100
+            3,  // 101–110
+            2,  // 111–120
+            1,  // 121–130
+            1,  // 131–140
+            1,  // 141–150
+            1,  // 151–160
+            1,  // 161–170
+            1,  // 171–180
+            1,  // 181–190
+            1,  // 191–200
+            1,  // 201–210
+            1,  // 211–220
+            1,  // 221–230
+            1,  // 231–240
+            1,  // 241–250
+            1   // 251–255
+    };
+
+    // DROP Rate gain per level tier
+// Slightly increases to reward higher-level exploration
+    private static final int[] DROP_RATE_GAIN = {
+            1,  // 1–10
+            1,  // 11–20
+            1,  // 21–30
+            1,  // 31–40
+            1,  // 41–50
+            1,  // 51–60
+            1,  // 61–70
+            1,  // 71–80
+            1,  // 81–90
+            1,  // 91–100
+            1,  // 101–110
+            1,  // 111–120
+            1,  // 121–130
+            1,  // 131–140
+            1,  // 141–150
+            1,  // 151–160
+            1,  // 161–170
+            1,  // 171–180
+            1,  // 181–190
+            1,  // 191–200
+            1,  // 201–210
+            1,  // 211–220
+            1,  // 221–230
+            1,  // 231–240
+            1,  // 241–250
+            1   // 251–255
+    };
+   //fibonacci :3 {1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610}
 
     private static final int[] jobUpgradeBlob = {1, 20, 60, 110, 190};
     private static final int[] jobUpgradeSpUp = {0, 1, 2, 3, 6};
