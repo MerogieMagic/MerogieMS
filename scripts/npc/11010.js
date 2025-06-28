@@ -111,7 +111,7 @@ function action(mode, type, selection) {
             var item = pouch.get(i);
             var itemId = item.getItemId();
             var name = oreNames[itemId] || ("Ore (" + itemId + ")");
-            text += "#L" + i + "#" + name + " (x" + item.getQuantity() + ")#\r\n";
+            text += "#L" + i + "##v" + itemId + "# (x" + item.getQuantity() + ")\r\n";
         }
 
         cm.sendSimple(text);
