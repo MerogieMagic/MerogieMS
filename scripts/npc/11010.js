@@ -38,7 +38,7 @@ function action(mode, type, selection) {
 
     // Menu
     if (status === 0) {
-        cm.sendSimple("What would you like to do?\r\n#L0#Deposit all ores from inventory\r\n#L1#Withdraw ores from pouch");
+        cm.sendSimple("Helloo I'm Menma! I can help hold on to your ores! Would you like my help?\r\n#L0#Deposit all ores from inventory\r\n#L1#Withdraw ores from pouch");
     }
 
     // Deposit
