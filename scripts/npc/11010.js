@@ -74,11 +74,27 @@ function action(mode, type, selection) {
 
             var total = pouchQty + inventoryQty;
 
-            if (total > 32767) {
-                skipped.push(oreNames[id] || ("Ore (" + id + ")"));
-                java.lang.System.out.println("[OrePouch] Skipped " + id + ": would exceed limit (" + total + ")");
-                continue;
-            }
+var maxAllowed = 32767 - pouchQty;
+
+if (maxAllowed <= 0) {
+    skipped.push(oreNames[id] || ("Ore (" + id + ")"));
+    java.lang.System.out.println("[OrePouch] Skipped " + id + ": pouch full");
+    continue;
+}
+
+var toDeposit = Math.min(inventoryQty, maxAllowed);
+
+// remove and deposit only what fits
+cm.gainItem(id, -toDeposit);
+cm.getPlayer().addOreToPouch(id, toDeposit);
+java.lang.System.out.println("[OrePouch] Deposited " + id + " x" + toDeposit);
+
+deposited += toDeposit;
+
+if (toDeposit < inventoryQty) {
+    skipped.push((oreNames[id] || ("Ore (" + id + ")")) + " (partially deposited)");
+    java.lang.System.out.println("[OrePouch] Partially deposited " + id + ": " + toDeposit + " of " + inventoryQty);
+}
 
             var removed = cm.gainItem(id, -inventoryQty); // remove from inventory
             cm.getPlayer().addOreToPouch(id, inventoryQty); // add to pouch
