@@ -24,7 +24,6 @@ var oreNames = {
     4004004: "Dark Crystal Ore"
 };
 
-// All supported ore item IDs
 var ores = Object.keys(oreNames).map(function(id) {
     return parseInt(id);
 });
@@ -39,7 +38,7 @@ function start() {
 }
 
 function action(mode, type, selection) {
-    java.lang.System.out.println("[OrePouch] status: " + status + ", selection: " + selection);
+    java.lang.System.out.println("[OrePouch] status = " + status + ", selection = " + selection);
 
     if (mode !== 1) {
         cm.dispose();
@@ -56,29 +55,48 @@ function action(mode, type, selection) {
         var deposited = 0;
         var skipped = [];
 
+        var pouch = cm.getPlayer().getOrePouch();
+
         for (var i = 0; i < ores.length; i++) {
             var id = ores[i];
-            var qty = cm.getPlayer().getItemQuantity(id, false);
-            if (qty > 0) {
-                java.lang.System.out.println("[OrePouch] Trying to deposit: " + id + " x" + qty);
-                var success = cm.getPlayer().addOreToPouch(id, qty);
-                if (success) {
-                    cm.removeAll(id);
-                    deposited += qty;
-                } else {
-                    skipped.push(oreNames[id] || ("Ore (" + id + ")"));
-                    java.lang.System.out.println("[OrePouch] Skipped due to overflow: " + id);
+            var inventoryQty = cm.getPlayer().getItemQuantity(id, false);
+            if (inventoryQty <= 0) {
+                continue;
+            }
+
+            var pouchQty = 0;
+            for (var j = 0; j < pouch.size(); j++) {
+                if (pouch.get(j).getItemId() === id) {
+                    pouchQty = pouch.get(j).getQuantity();
+                    break;
                 }
             }
+
+            var total = pouchQty + inventoryQty;
+
+            if (total > 32767) {
+                skipped.push(oreNames[id] || ("Ore (" + id + ")"));
+                java.lang.System.out.println("[OrePouch] Skipped " + id + ": would exceed limit (" + total + ")");
+                continue;
+            }
+
+            var removed = cm.gainItem(id, -inventoryQty); // remove from inventory
+            cm.getPlayer().addOreToPouch(id, inventoryQty); // add to pouch
+            java.lang.System.out.println("[OrePouch] Deposited " + id + " x" + inventoryQty);
+            deposited += inventoryQty;
         }
 
         var msg = "Deposited " + deposited + " ores into your pouch.";
         if (skipped.length > 0) {
             msg += "\r\nCannot store more of: " + skipped.join(", ") + " (limit 32,767 reached)";
         }
+
         cm.sendOk(msg);
         cm.dispose();
     }
+
+    // Other states (withdraw) remain unchanged, assumed already correct
+    // Let me know if you'd like me to regenerate full script with withdraw included
 
     else if (status === 1 && selection === 1) {
         var pouch = cm.getPlayer().getOrePouch();
