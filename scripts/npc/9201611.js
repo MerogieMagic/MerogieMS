@@ -10,6 +10,7 @@ var upgradeConfigRb0 = {
 };
 
 var nxMultiplier = false;
+var nxMultiplierCost = 2000000;
 
 // Fees + Protection scroll
 var previewFee   = 2500000;
@@ -204,7 +205,7 @@ function preview(slot, upgradeNormal) {
         return cm.dispose();
     }
 
-    if (nxMultiplier && cm.getCashShop().getCash(1) < 5000000) {
+    if (nxMultiplier && cm.getCashShop().getCash(1) < nxMultiplierCost) {
         cm.sendOk("You turned on NX Multiplier but don't have enough NX to roll. Don't think I'm a 5 year old kid! I'm not easy to scam.")
         return cm.dispose();
     }
@@ -254,7 +255,7 @@ function preview(slot, upgradeNormal) {
         // Deduct preview fee
         cm.gainMeso(-previewFee);
         if (nxMultiplier) {
-            cm.gainCash(-5000000);
+            cm.gainCash(-nxMultiplierCost);
         }
 
 
@@ -291,7 +292,7 @@ function calcNewStats(item, itemId, nxMultiplier) {
     // Main stats 40–60% increase, defs 10–20%
 //    if (parseInt(itemId/10000) < 130) {
     if (nxMultiplier) {
-        var mm = () => 1.4 + Math.random() * 0.25;
+        var mm = () => 1.4 + Math.random() * 0.22;
     } else {
         var mm = () => 1.4 + Math.random() * 0.2;
     }
@@ -320,7 +321,7 @@ function calcBetterNewStats(item, itemId) {
 //        var mm = 1.4 + Math.random() * 0.2;
 //    }
     if (nxMultiplier) {
-        var mm = 1.4 + Math.random() * 0.25;
+        var mm = 1.4 + Math.random() * 0.22;
     } else {
         var mm = 1.4 + Math.random() * 0.2;
     }
