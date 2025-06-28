@@ -119,7 +119,7 @@ function Menu() {
     var selStr = "\r\n#b#L0#Regular upgrades#l" +
                  "\r\n#b#L1#Premium upgrades#l" +
                  "\r\n#b#L2#Salvage my item!#l" +
-                 "\r\n#b#L3#Turn on Additional NX multiplier [2m per reroll]: " + nxMultSwitch + "#l";
+                 "\r\n#b#L3#Increase Sub Upper Limit to 1.62x [2m NX per roll]: " + nxMultSwitch + "#l";
     cm.sendSimple(selStr);
 }
 
