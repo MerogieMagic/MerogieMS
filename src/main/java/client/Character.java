@@ -151,7 +151,7 @@ import server.partyquest.PartyQuest;
 import server.quest.Quest;
 import server.ItemBuybackManager;
 import server.ItemBuybackManager.BuybackEntry;
-
+import server.inventory.OrePouchManager;
 
 import tools.DatabaseConnection;
 import tools.LongTool;
@@ -11359,6 +11359,47 @@ public class Character extends AbstractCharacterObject {
     public boolean buybackItem(int index) {
         return ItemBuybackManager.getInstance().buybackItem(this, index);
     }
+
+    // Stores the ore pouch in memory
+    private List<Item> orePouch = null;
+
+    /**
+     * Lazily loads the ore pouch from the database.
+     */
+    public List<Item> getOrePouch() {
+        if (orePouch == null) {
+            orePouch = server.inventory.OrePouchManager.loadOrePouchItems(getId());
+        }
+        return orePouch;
+    }
+
+    /**
+     * Adds a specific ore to the pouch. Merges with existing if present.
+     */
+    public void addOreToPouch(int itemId, int quantity) {
+        getOrePouch(); // Ensure pouch is loaded
+        for (Item item : orePouch) {
+            if (item.getItemId() == itemId) {
+                item.setQuantity((short) (item.getQuantity() + quantity));
+                server.inventory.OrePouchManager.saveOrePouchItems(getId(), orePouch);
+                return;
+            }
+        }
+        // Add new item if not found
+        Item newItem = new Item(itemId, (byte) 0, (short) quantity);
+        orePouch.add(newItem);
+        server.inventory.OrePouchManager.saveOrePouchItems(getId(), orePouch);
+    }
+
+    /**
+     * Removes all quantity of a specific ore from the pouch.
+     */
+    public void removeOreFromPouch(int itemId) {
+        getOrePouch();
+        orePouch.removeIf(item -> item.getItemId() == itemId);
+        server.inventory.OrePouchManager.saveOrePouchItems(getId(), orePouch);
+    }
+
 
 
 }
