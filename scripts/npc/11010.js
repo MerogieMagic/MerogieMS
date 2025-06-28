@@ -1,32 +1,21 @@
-// Ore ID to friendly name mapping
+// Friendly ore name mapping
 var oreNames = {
-    4010000: "Bronze Ore",
-    4010001: "Steel Ore",
-    4010002: "Mithril Ore",
-    4010003: "Adamantium Ore",
-    4010004: "Silver Ore",
-    4010005: "Orihalcon Ore",
-    4010006: "Gold Ore",
-    4010007: "Lidium Ore",
-    4020000: "Garnet Ore",
-    4020001: "Amethyst Ore",
-    4020002: "Aquamarine Ore",
-    4020003: "Emerald Ore",
-    4020004: "Opal Ore",
-    4020005: "Sapphire Ore",
-    4020006: "Topaz Ore",
-    4020007: "Diamond Ore",
+    4010000: "Bronze Ore", 4010001: "Steel Ore", 4010002: "Mithril Ore", 4010003: "Adamantium Ore",
+    4010004: "Silver Ore", 4010005: "Orihalcon Ore", 4010006: "Gold Ore", 4010007: "Lidium Ore",
+    4020000: "Garnet Ore", 4020001: "Amethyst Ore", 4020002: "Aquamarine Ore", 4020003: "Emerald Ore",
+    4020004: "Opal Ore", 4020005: "Sapphire Ore", 4020006: "Topaz Ore", 4020007: "Diamond Ore",
     4020008: "Black Crystal Ore",
-    4004000: "Power Crystal Ore",
-    4004001: "Wisdom Crystal Ore",
-    4004002: "DEX Crystal Ore",
-    4004003: "LUK Crystal Ore",
-    4004004: "Dark Crystal Ore"
+    4004000: "Power Crystal Ore", 4004001: "Wisdom Crystal Ore", 4004002: "DEX Crystal Ore",
+    4004003: "LUK Crystal Ore", 4004004: "Dark Crystal Ore"
 };
 
+// All ore item IDs
 var ores = Object.keys(oreNames).map(function(id) {
     return parseInt(id);
 });
+
+// Java short conversion
+var JavaShort = Java.type("java.lang.Short");
 
 var status = 0;
 var selectedIndex = -1;
@@ -47,22 +36,21 @@ function action(mode, type, selection) {
 
     status++;
 
+    // Menu
     if (status === 0) {
         cm.sendSimple("What would you like to do?\r\n#L0#Deposit all ores from inventory\r\n#L1#Withdraw ores from pouch");
     }
 
+    // Deposit
     else if (status === 1 && selection === 0) {
         var deposited = 0;
         var skipped = [];
-
         var pouch = cm.getPlayer().getOrePouch();
 
         for (var i = 0; i < ores.length; i++) {
             var id = ores[i];
             var inventoryQty = cm.getPlayer().getItemQuantity(id, false);
-            if (inventoryQty <= 0) {
-                continue;
-            }
+            if (inventoryQty <= 0) continue;
 
             var pouchQty = 0;
             for (var j = 0; j < pouch.size(); j++) {
@@ -72,34 +60,23 @@ function action(mode, type, selection) {
                 }
             }
 
-            var total = pouchQty + inventoryQty;
+            var maxAllowed = 32767 - pouchQty;
+            if (maxAllowed <= 0) {
+                skipped.push(oreNames[id] || ("Ore (" + id + ")"));
+                java.lang.System.out.println("[OrePouch] Skipped " + id + ": pouch full");
+                continue;
+            }
 
-var maxAllowed = 32767 - pouchQty;
+            var toDeposit = Math.min(inventoryQty, maxAllowed);
+            cm.gainItem(id, JavaShort.valueOf(-toDeposit));
+            cm.getPlayer().addOreToPouch(id, toDeposit);
+            java.lang.System.out.println("[OrePouch] Deposited " + id + " x" + toDeposit);
+            deposited += toDeposit;
 
-if (maxAllowed <= 0) {
-    skipped.push(oreNames[id] || ("Ore (" + id + ")"));
-    java.lang.System.out.println("[OrePouch] Skipped " + id + ": pouch full");
-    continue;
-}
-
-var toDeposit = Math.min(inventoryQty, maxAllowed);
-
-// remove and deposit only what fits
-cm.gainItem(id, -toDeposit);
-cm.getPlayer().addOreToPouch(id, toDeposit);
-java.lang.System.out.println("[OrePouch] Deposited " + id + " x" + toDeposit);
-
-deposited += toDeposit;
-
-if (toDeposit < inventoryQty) {
-    skipped.push((oreNames[id] || ("Ore (" + id + ")")) + " (partially deposited)");
-    java.lang.System.out.println("[OrePouch] Partially deposited " + id + ": " + toDeposit + " of " + inventoryQty);
-}
-
-            var removed = cm.gainItem(id, -inventoryQty); // remove from inventory
-            cm.getPlayer().addOreToPouch(id, inventoryQty); // add to pouch
-            java.lang.System.out.println("[OrePouch] Deposited " + id + " x" + inventoryQty);
-            deposited += inventoryQty;
+            if (toDeposit < inventoryQty) {
+                skipped.push((oreNames[id] || ("Ore (" + id + ")")) + " (partially deposited)");
+                java.lang.System.out.println("[OrePouch] Partially deposited " + id + ": " + toDeposit + " of " + inventoryQty);
+            }
         }
 
         var msg = "Deposited " + deposited + " ores into your pouch.";
@@ -111,9 +88,7 @@ if (toDeposit < inventoryQty) {
         cm.dispose();
     }
 
-    // Other states (withdraw) remain unchanged, assumed already correct
-    // Let me know if you'd like me to regenerate full script with withdraw included
-
+    // Withdraw menu
     else if (status === 1 && selection === 1) {
         var pouch = cm.getPlayer().getOrePouch();
         if (pouch.size() === 0) {
@@ -133,6 +108,7 @@ if (toDeposit < inventoryQty) {
         cm.sendSimple(text);
     }
 
+    // Quantity selection
     else if (status === 2) {
         var pouch = cm.getPlayer().getOrePouch();
 
@@ -154,9 +130,11 @@ if (toDeposit < inventoryQty) {
         var quantity = item.getQuantity();
         var name = oreNames[itemId] || ("Ore (" + itemId + ")");
 
-        cm.sendGetNumber("How many #b" + name + "#k would you like to withdraw?\r\n(Max: " + quantity + ")", 1, 1, quantity);
+        // Default to max amount
+        cm.sendGetNumber("How many #b" + name + "#k would you like to withdraw?\r\n(Max: " + quantity + ")", quantity, 1, quantity);
     }
 
+    // Perform withdrawal
     else if (status === 3) {
         withdrawAmount = selection;
 
