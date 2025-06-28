@@ -119,7 +119,7 @@ function Menu() {
     var selStr = "\r\n#b#L0#Regular upgrades#l" +
                  "\r\n#b#L1#Premium upgrades#l" +
                  "\r\n#b#L2#Salvage my item!#l" +
-                 "\r\n#b#L3#Increase Sub Upper Limit to 1.62x [2m NX per roll]: " + nxMultSwitch + "#l";
+                 "\r\n#b#L3#Turn on Additional NX multiplier to 1.62x [2m per reroll]: " + nxMultSwitch + "#l";
     cm.sendSimple(selStr);
 }
 
@@ -193,6 +193,15 @@ function preview(slot, upgradeNormal) {
         cm.sendOk("Invalid selection.");
         return cm.dispose();
     }
+    // Rebirth condition: level = 5 but and not rebirthed 3 times
+    if (lvl == 5 && hands <= 2) {
+        isRebirth = true;
+        return cm.sendYesNo(
+            "Your item has reached its max upgrades. I can reset it with a base stat boost.\r\n"
+          + "Cost: 1x#v" + rockOfTime + "# + 350k NX. Proceed?"
+        );
+    }
+
     if (0 <= hands <= 3) { // able to configure to hand different upgradeConfigRb0-3 if needed here
         var cfg  = upgradeConfigRb0[lvl];
     }
@@ -218,17 +227,6 @@ function preview(slot, upgradeNormal) {
     }
 
     previewFee = (upgradeNormal ? ii/2 * 100000 : ii/2 * 1000000) // cost of better rol is 10x more
-
-
-
-    // Rebirth condition: level = 5 but and not rebirthed 3 times
-    if (lvl == 5 && hands <= 2) {
-        isRebirth = true;
-        return cm.sendYesNo(
-            "Your item has reached its max upgrades. I can reset it with a base stat boost.\r\n"
-          + "Cost: 1x#v" + rockOfTime + "# + 350k NX. Proceed?"
-        );
-    }
 
     // Regular upgrade: level 1–4, hands ≤=3
     if (lvl >= 1 && lvl <= 4 && hands <= 3) {
