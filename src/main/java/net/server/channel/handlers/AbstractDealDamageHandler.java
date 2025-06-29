@@ -918,7 +918,7 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
         }
 
         // For handling total damage more than 2.14b =========== Slimy edits
-        System.out.println("ret.targets: " + ret.targets);
+//        System.out.println("ret.targets: " + ret.targets);
         for (Map.Entry<Integer, AttackTarget> entry : ret.targets.entrySet()) {
             int mobId = entry.getKey(); // get monsterId on map
             Monster monster = chr.getMap().getMonsterByOid(mobId); // get monster class
