@@ -63,10 +63,9 @@ import client.command.commands.gm0.ExpGainCommand;
 import client.command.commands.gm0.InactiveGuildMembersCommand;
 import client.command.commands.gm0.SellAllCommand;
 import client.command.commands.gm0.BuybackCommand;
-
+import client.command.commands.gm0.ToggleAutoPotCommand;
 
 import client.command.commands.gm1.BossHpCommand;
-import client.command.commands.gm1.BuffMeCommand;
 import client.command.commands.gm1.MobHpCommand;
 
 import client.command.commands.gm2.ScrollShopCommand;
@@ -414,6 +413,8 @@ public class CommandsExecutor {
         addCommand("inactiveguildmembers", InactiveGuildMembersCommand.class);
         addCommand("sellall",  SellAllCommand.class);
         addCommand("buyback", BuybackCommand.class);
+        addCommand("toggleautopot", ToggleAutoPotCommand.class);
+
         commandsNameDesc.add(levelCommandsCursor);
     }
 

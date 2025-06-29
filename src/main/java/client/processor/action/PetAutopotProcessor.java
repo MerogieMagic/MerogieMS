@@ -129,7 +129,8 @@ public class PetAutopotProcessor {
                         incMp = Math.ceil(maxMp * stat.getMpRate());
                     }
 
-                    if (YamlConfig.config.server.USE_COMPULSORY_AUTOPOT) {
+                    if (YamlConfig.config.server.USE_COMPULSORY_AUTOPOT && chr.isAutopotEnabled()) {
+ //                   if (YamlConfig.config.server.USE_COMPULSORY_AUTOPOT) {
                         if (hasHpGain) {
                             double hpRatio = (YamlConfig.config.server.PET_AUTOHP_RATIO * maxHp) - curHp;
                             if (hpRatio > 0.0) {
