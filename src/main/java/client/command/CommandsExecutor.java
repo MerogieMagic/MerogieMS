@@ -67,12 +67,12 @@ import client.command.commands.gm0.BuybackCommand;
 
 import client.command.commands.gm1.BossHpCommand;
 import client.command.commands.gm1.BuffMeCommand;
-import client.command.commands.gm1.GotoCommand;
 import client.command.commands.gm1.MobHpCommand;
-import client.command.commands.gm1.ScrollShopCommand;
-import client.command.commands.gm1.JeffShopCommand;
-import client.command.commands.gm1.MapleShopCommand;
 
+import client.command.commands.gm2.ScrollShopCommand;
+import client.command.commands.gm2.JeffShopCommand;
+import client.command.commands.gm2.MapleShopCommand;
+import client.command.commands.gm2.GotoCommand;
 import client.command.commands.gm2.ApCommand;
 import client.command.commands.gm2.BombCommand;
 import client.command.commands.gm2.BuffCommand;
@@ -114,6 +114,7 @@ import client.command.commands.gm2.WarpCommand;
 import client.command.commands.gm2.WarpMapCommand;
 import client.command.commands.gm2.WhereaMiCommand;
 import client.command.commands.gm2.EavesdropCommand;
+import client.command.commands.gm2.BuffUniverseCommand;
 
 import client.command.commands.gm3.BanCommand;
 import client.command.commands.gm3.ChatCommand;
@@ -421,11 +422,8 @@ public class CommandsExecutor {
         levelCommandsCursor = new Pair<>(new ArrayList<String>(), new ArrayList<String>());
 
 
-        addCommand("buffme", 1, BuffMeCommand.class);
-        addCommand("goto", 1, GotoCommand.class);
-        addCommand("jeffshop", 1, JeffShopCommand.class);
-        addCommand("mapleshop", 1, MapleShopCommand.class);
-        addCommand("scrollshop", 1, ScrollShopCommand.class);
+  //      addCommand("buffme", 2, BuffMeCommand.class);
+
 
         commandsNameDesc.add(levelCommandsCursor);
     }
@@ -433,6 +431,11 @@ public class CommandsExecutor {
 
     private void registerLv2Commands() {
         levelCommandsCursor = new Pair<>(new ArrayList<String>(), new ArrayList<String>());
+
+        addCommand("goto", 2, GotoCommand.class);
+        addCommand("jeffshop", 2, JeffShopCommand.class);
+        addCommand("mapleshop", 2, MapleShopCommand.class);
+        addCommand("scrollshop", 2, ScrollShopCommand.class);
 
         addCommand("recharge", 2, RechargeCommand.class);
         addCommand("whereami", 2, WhereaMiCommand.class);
@@ -475,6 +478,7 @@ public class CommandsExecutor {
         addCommand("mobskill", MobSkillCommand.class);
 
         addCommand("eavesdrop", 2, EavesdropCommand.class);
+        addCommand("buffuniverse", 2, BuffUniverseCommand.class);
 
         commandsNameDesc.add(levelCommandsCursor);
     }
