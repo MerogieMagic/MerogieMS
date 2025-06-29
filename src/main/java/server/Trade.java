@@ -355,6 +355,10 @@ public class Trade {
             local.completeTrade();
             partner.completeTrade();
 
+            // Save both characters to DB after trade completes
+            local.getChr().saveCharToDB();
+            partner.getChr().saveCharToDB();
+
             partner.getChr().setTrade(null);
             chr.setTrade(null);
         }
