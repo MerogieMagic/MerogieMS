@@ -72,7 +72,6 @@ import constants.skills.Page;
 import constants.skills.Paladin;
 import constants.skills.Ranger;
 import constants.skills.Rogue;
-import constants.skills.Bandit;
 import constants.skills.Shadower;
 import constants.skills.Sniper;
 import constants.skills.Spearman;
@@ -125,6 +124,7 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
         public Point position = new Point();
         public List<Integer> explodedMesos;
         public Short attackDelay;
+        public List<Integer> damageLines;
 
         public StatEffect getAttackEffect(Character chr, Skill theSkill) {
             Skill mySkill = theSkill;
@@ -905,6 +905,7 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
                 }
 
                 damageLines.add(damage);
+                ret.damageLines = damageLines;
             }
             if (ret.skill != Corsair.RAPID_FIRE || ret.skill != Aran.HIDDEN_FULL_DOUBLE || ret.skill != Aran.HIDDEN_FULL_TRIPLE || ret.skill != Aran.HIDDEN_OVER_DOUBLE || ret.skill != Aran.HIDDEN_OVER_TRIPLE) {
                 p.skip(4);
@@ -915,6 +916,37 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
             p.skip(4);
             ret.position.setLocation(p.readShort(), p.readShort());
         }
+
+        // For handling total damage more than 2.14b =========== Slimy edits
+        System.out.println("ret.targets: " + ret.targets);
+        for (Map.Entry<Integer, AttackTarget> entry : ret.targets.entrySet()) {
+            int mobId = entry.getKey(); // get monsterId on map
+            Monster monster = chr.getMap().getMonsterByOid(mobId); // get monster class
+            AttackTarget tgt = entry.getValue(); // get attack details on that monster
+
+            long total = 0; // used to check if damage overflows
+            for (Integer dmg : tgt.damageLines) {
+                if (dmg != null) {
+                    total += dmg;
+                }
+            }
+
+            int actualDamage = (int) total;
+            long toDamage = total - actualDamage; // if damage overflow in client was negative, add it to total dmg to 'reimburse' the dmg. if damage overflow is positive, remove it from total damage
+            int numTimeExceed = (int) (toDamage / Integer.MAX_VALUE == 0 ? 0 : toDamage / Integer.MAX_VALUE);
+            int remainingDamage = (int) (toDamage % Integer.MAX_VALUE);
+            MapleMap map = chr.getMap();
+            if (total > Integer.MAX_VALUE) {
+                map.damageMonster(chr, monster, remainingDamage); // deal the remainder of damager after Integer.MAX_VALUE
+                for (int i = 0; i < numTimeExceed; i++) {
+                    map.damageMonster(chr, monster, Integer.MAX_VALUE);
+                }
+            }
+            // Print out to check
+//            System.out.println("MOB: " + mobId + "; Total Damage: " + total + "; Overflow: " + (int) total + "; toDamage: " +
+//                    toDamage + "; numTimeExceed: " + numTimeExceed + "; remainingDamage: " + remainingDamage);
+        }
+
         return ret;
     }
 
