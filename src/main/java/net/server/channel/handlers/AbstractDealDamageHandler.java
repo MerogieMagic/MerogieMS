@@ -919,7 +919,7 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
         }
 
         // For handling total damage more than 2.14b =========== Slimy edits
-        System.out.println("ret.targets: " + ret.targets);
+//        System.out.println("ret.targets: " + ret.targets);
         for (Map.Entry<Integer, AttackTarget> entry : ret.targets.entrySet()) {
             int mobId = entry.getKey(); // get monsterId on map
             Monster monster = chr.getMap().getMonsterByOid(mobId); // get monster class
@@ -934,7 +934,7 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
 
             int actualDamage = (int) total;
             long toDamage = total - actualDamage; // if damage overflow in client was negative, add it to total dmg to 'reimburse' the dmg. if damage overflow is positive, remove it from total damage
-            int numTimeExceed = (int) (toDamage / Integer.MAX_VALUE == 0 ? 0 : toDamage / Integer.MAX_VALUE);
+            int numTimeExceed = (int) (toDamage / Integer.MAX_VALUE);
             int remainingDamage = (int) (toDamage % Integer.MAX_VALUE);
             MapleMap map = chr.getMap();
             if (total > Integer.MAX_VALUE) {
