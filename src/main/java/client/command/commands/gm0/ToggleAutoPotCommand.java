@@ -14,7 +14,7 @@ public class ToggleAutoPotCommand extends Command {
     public void execute(Character chr, String[] args) {
         boolean current = chr.isAutopotEnabled();
         chr.setAutopotEnabled(!current);
-        chr.dropMessage(6, "[System] Pet AutoPot has been " + (chr.isAutopotEnabled() ? "enabled" : "disabled") + ".");
+        chr.dropMessage(6, "[System] Pet MultiPot has been " + (chr.isAutopotEnabled() ? "enabled" : "disabled") + ".");
     }
 
     // ✅ THIS is the required method
