@@ -197,8 +197,10 @@ function showApplicableScrolls(equipSlot) {
     for (var scroll of validScrolls) {
         for (var slot = 1; slot <= inv.getSlotLimit(); slot++) {
             var item = inv.getItem(slot);
+                    if (!item) continue;
+                    var name = Packages.server.ItemInformationProvider.getInstance().getName(item.getItemId());
             if (item && item.getItemId() === scroll) {
-                lines.push(`#L${slot}##v${scroll}# ${scroll}#l`);
+                lines.push(`#L${slot}##v${scroll}# ${name}#l`);
             }
         }
     }
