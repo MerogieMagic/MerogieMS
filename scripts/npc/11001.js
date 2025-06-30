@@ -37,14 +37,14 @@ function action(mode, type, selection) {
         switch (status) {
             case 1:
                 cm.sendSimple("What would you like to do?\r\n" +
-                    "#b#L0#Hammer all your equips (using Vicious Hammers)#l\r\n" +
-                    "#L1#Auto-scroll an equip using scrolls#l\r\n" +
+                     "#L0#Auto-scroll an equip using scrolls#l\r\n" +
+                    "#b#L1#Hammer all your equips (using Vicious Hammers)#l\r\n" +
                     "#L2#Purchase Vicious Hammers (10,000 NX each)#l");
                 break;
             case 2:
                 switch (selection) {
-                    case 0: return showHammerableEquips();
-                    case 1: return showScrollableEquips();
+                    case 0: return showScrollableEquips();
+                    case 1: return showHammerableEquips();
                     case 2:
                         cm.sendGetText("How many Vicious Hammers would you like to buy?", "1");
                         status = 10;
