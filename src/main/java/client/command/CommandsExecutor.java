@@ -230,6 +230,10 @@ import client.command.commands.gm6.ShutdownCommand;
 import client.command.commands.gm6.SpawnAllPNpcsCommand;
 import client.command.commands.gm6.SupplyRateCouponCommand;
 import client.command.commands.gm6.WarpWorldCommand;
+
+import client.command.commands.gm6.Draw4DCommand;
+
+
 import constants.id.MapId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -406,6 +410,8 @@ public class CommandsExecutor {
         addCommand("loot", LootCommand.class);
         addCommand("world", 0, WorldChatCommand.class);
         addCommand("uni", 0, UniverseChatCommand.class);
+        addCommand("w", 0, WorldChatCommand.class);
+        addCommand("u", 0, UniverseChatCommand.class);
         addCommand("sell", 0, SellItemsCommand.class);
         addCommand("exp", 0, ExpGainCommand.class);
         addCommand("powerup",  UnlockedBuffsCommand.class);
@@ -621,6 +627,7 @@ public class CommandsExecutor {
         addCommand("removechannel", 6, ServerRemoveChannelCommand.class);
         addCommand("removeworld", 6, ServerRemoveWorldCommand.class);
         addCommand("devtest", 6, DevtestCommand.class);
+        addCommand("draw4d", 6, Draw4DCommand.class);
 
         commandsNameDesc.add(levelCommandsCursor);
     }
