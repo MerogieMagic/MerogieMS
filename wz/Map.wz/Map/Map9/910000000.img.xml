@@ -12,8 +12,8 @@
 <int name="town" value="1"/>
 <int name="version" value="10"/>
 <int name="fieldLimit" value="8428"/>
-<int name="VRTop" value="-778"/>
-<int name="VRBottom" value="134"/>
+<int name="VRTop" value="-805"/>
+<int name="VRBottom" value="165"/>
 <int name="VRLeft" value="-737"/>
 <int name="VRRight" value="1640"/>
 <string name="onFirstUserEnter" value=""/>
@@ -41,8 +41,8 @@
 <int name="VRLimit" value="0"/>
 <int name="VRLeft" value="-737"/>
 <int name="VRRight" value="1640"/>
-<int name="VRTop" value="-805"/>
-<int name="VRBottom" value="165"/>
+<int name="VRTop" value="-778"/>
+<int name="VRBottom" value="134"/>
 </imgdir>
 <imgdir name="miniMap">
 <canvas name="canvas" width="148" height="58">
@@ -2870,19 +2870,6 @@
 <int name="fh" value="67"/>
 </imgdir>
 <imgdir name="5">
-<string name="id" value="0011004"/>
-<int name="x" value="18"/>
-<int name="y" value="-167"/>
-<int name="cy" value="-159"/>
-<int name="mobTime" value="0"/>
-<int name="rx0" value="-2"/>
-<int name="rx1" value="38"/>
-<int name="f" value="0"/>
-<int name="hide" value="0"/>
-<string name="type" value="n"/>
-<int name="fh" value="28"/>
-</imgdir>
-<imgdir name="6">
 <string name="id" value="0011006"/>
 <int name="x" value="1050"/>
 <int name="y" value="-350"/>
@@ -2895,7 +2882,7 @@
 <string name="type" value="n"/>
 <int name="fh" value="73"/>
 </imgdir>
-<imgdir name="7">
+<imgdir name="6">
 <string name="id" value="9201099"/>
 <int name="x" value="202"/>
 <int name="y" value="-414"/>
@@ -2908,7 +2895,7 @@
 <string name="type" value="n"/>
 <int name="fh" value="34"/>
 </imgdir>
-<imgdir name="8">
+<imgdir name="7">
 <string name="id" value="9201611"/>
 <int name="x" value="6"/>
 <int name="y" value="-417"/>
@@ -2921,7 +2908,7 @@
 <string name="type" value="n"/>
 <int name="fh" value="27"/>
 </imgdir>
-<imgdir name="9">
+<imgdir name="8">
 <string name="id" value="1012004"/>
 <int name="x" value="785"/>
 <int name="y" value="-346"/>
@@ -2934,7 +2921,7 @@
 <string name="type" value="n"/>
 <int name="fh" value="56"/>
 </imgdir>
-<imgdir name="10">
+<imgdir name="9">
 <string name="id" value="0011010"/>
 <int name="x" value="1039"/>
 <int name="y" value="-25"/>
@@ -2947,7 +2934,7 @@
 <string name="type" value="n"/>
 <int name="fh" value="65"/>
 </imgdir>
-<imgdir name="11">
+<imgdir name="10">
 <string name="id" value="0011009"/>
 <int name="x" value="1110"/>
 <int name="y" value="-24"/>
@@ -2960,7 +2947,7 @@
 <string name="type" value="n"/>
 <int name="fh" value="65"/>
 </imgdir>
-<imgdir name="12">
+<imgdir name="11">
 <string name="id" value="0011007"/>
 <int name="x" value="806"/>
 <int name="y" value="-123"/>
@@ -2973,20 +2960,20 @@
 <string name="type" value="n"/>
 <int name="fh" value="60"/>
 </imgdir>
-<imgdir name="13">
+<imgdir name="12">
 <string name="id" value="0011011"/>
 <int name="x" value="71"/>
 <int name="y" value="-24"/>
 <int name="cy" value="-16"/>
 <int name="mobTime" value="0"/>
-<int name="rx0" value="-228"/>
-<int name="rx1" value="-188"/>
+<int name="rx0" value="-259"/>
+<int name="rx1" value="-219"/>
 <int name="f" value="1"/>
 <int name="hide" value="0"/>
 <string name="type" value="n"/>
 <int name="fh" value="20"/>
 </imgdir>
-<imgdir name="14">
+<imgdir name="13">
 <string name="id" value="0011008"/>
 <int name="x" value="883"/>
 <int name="y" value="-345"/>
@@ -2999,7 +2986,7 @@
 <string name="type" value="n"/>
 <int name="fh" value="61"/>
 </imgdir>
-<imgdir name="15">
+<imgdir name="14">
 <string name="id" value="0011001"/>
 <int name="x" value="1114"/>
 <int name="y" value="-347"/>
@@ -3012,20 +2999,20 @@
 <string name="type" value="n"/>
 <int name="fh" value="76"/>
 </imgdir>
-<imgdir name="16">
+<imgdir name="15">
 <string name="id" value="2100001"/>
 <int name="x" value="659"/>
 <int name="y" value="-346"/>
 <int name="cy" value="-339"/>
 <int name="mobTime" value="0"/>
-<int name="rx0" value="849"/>
-<int name="rx1" value="949"/>
+<int name="rx0" value="879"/>
+<int name="rx1" value="979"/>
 <int name="f" value="1"/>
 <int name="hide" value="0"/>
 <string name="type" value="n"/>
 <int name="fh" value="50"/>
 </imgdir>
-<imgdir name="17">
+<imgdir name="16">
 <string name="id" value="9000041"/>
 <int name="x" value="216"/>
 <int name="y" value="-27"/>

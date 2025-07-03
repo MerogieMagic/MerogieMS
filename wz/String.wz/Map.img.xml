@@ -9849,8 +9849,8 @@
 <string name="mapName" value="Utah&apos;s Pig Farm"/>
 </imgdir>
 <imgdir name="910000000">
-<string name="streetName" value="Free Market Entrance"/>
-<string name="mapName" value="Hidden Street"/>
+<string name="streetName" value="Hidden Street"/>
+<string name="mapName" value="Free Market Entrance"/>
 </imgdir>
 <imgdir name="910000001">
 <string name="streetName" value="Free Market&lt;1&gt;"/>
