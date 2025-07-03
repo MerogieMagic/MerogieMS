@@ -689,11 +689,11 @@
 <imgdir name="1052016">
 <string name="name" value="Regular Cab"/>
 </imgdir>
-<imgdir name="1052017">
-<string name="name" value="Mr. Hong"/>
-<string name="func" value="Storage Keeper"/>
-<string name="n0" value="You need a place to store your items and mesos? Here it is!"/>
-<string name="n1" value="My storage is safe and secure, so no worries!"/>
+<imgdir name="11014">
+<string name="name" value="Mr. Hong&apos;s Brother"/>
+<string name="func" value="NXT Exchanger"/>
+<string name="n0" value="You need a way to store your NX? Here it is!"/>
+<string name="n1" value="Can i interest you in some Crypto..."/>
 </imgdir>
 <imgdir name="1052100">
 <string name="name" value="Don Giovanni"/>
@@ -1971,11 +1971,11 @@
 <string name="d0" value="Have a nice day~"/>
 <string name="d1" value="I just drank Nependeath juice~ It is so good."/>
 </imgdir>
-<imgdir name="2012021">
-<string name="name" value="Ramini"/>
-<string name="func" value="Crewmember"/>
-<string name="n0" value="Do you know of Leafre the town?"/>
-<string name="n1" value="So you want to head to Leafre, a town named to signify the fact that it&apos;s a &apos;Leaf Town&apos;?"/>
+<imgdir name="11012">
+<string name="name" value="Rebecca"/>
+<string name="func" value="Merogie Pools Staff"/>
+<string name="n0" value="Welcome to Merogie Pools! May I interest you in 4D Lottery?"/>
+<string name="n1" value="Bet NXT win BCoin!"/>
 <string name="d0" value="..."/>
 <string name="d1" value="..."/>
 </imgdir>
@@ -42921,10 +42921,10 @@
 <string name="w2" value="If you want to talk to someone, click on them"/>
 </imgdir>
 <imgdir name="11001">
-<string name="name" value="Old-Scrolland"/>
-<string name="func" value="I&apos;m Old Now :("/>
-<string name="n0" value="Im Old-Scrolland :("/>
-<string name="n1" value="Nice to meet you.."/>
+<string name="name" value="Otto Scrolland"/>
+<string name="func" value="Automated Scrolling"/>
+<string name="n0" value="Im Old-Scrolland :( I&apos;ve got a new job! :)"/>
+<string name="n1" value="Nice to meet you! I can Help you with scrolling!"/>
 </imgdir>
 <imgdir name="11007">
 <string name="name" value="Garden"/>
@@ -42970,7 +42970,7 @@
 <string name="n0" value="Hey there! I&apos;m Bob!"/>
 <string name="n1" value="Play fair!"/>
 <string name="n2" value="Thanks Merogie!"/>
-<string name="func" value=""/>
+<string name="func" value="Old B-Coin Exchanger"/>
 </imgdir>
 <imgdir name="11006">
 <string name="name" value="Roger"/>
@@ -42985,5 +42985,27 @@
 <string name="n1" value="Lets play Hide and Seek!"/>
 <string name="n2" value="Jintan I love you!"/>
 <string name="func" value=""/>
+</imgdir>
+<imgdir name="11013">
+<string name="name" value="Esther"/>
+<string name="func" value="Merogie Pools Staff"/>
+<string name="n0" value="Welcome to Merogie Pools! May I interest you in 4D Lottery?"/>
+<string name="n1" value="Bet NXT win BCoin!"/>
+<string name="d0" value="..."/>
+<string name="d1" value="..."/>
+</imgdir>
+<imgdir name="2012021">
+<string name="name" value="Ramini"/>
+<string name="func" value="Crewmember"/>
+<string name="n0" value="Do you know of Leafre the town?"/>
+<string name="n1" value="So you want to head to Leafre, a town named to signify the fact that it&apos;s a &apos;Leaf Town&apos;?"/>
+<string name="d0" value="..."/>
+<string name="d1" value="..."/>
+</imgdir>
+<imgdir name="1052017">
+<string name="name" value="Mr. Hong"/>
+<string name="func" value="Storage Keeper"/>
+<string name="n0" value="You need a place to store your items and mesos? Here it is!"/>
+<string name="n1" value="My storage is safe and secure, so no worries!"/>
 </imgdir>
 </imgdir>

@@ -3,7 +3,7 @@ var NXT_COIN_ID = 3020001;
 
 // Configurable exchange rates
 var BUY_RATE = 1000000;  // NX cost to buy 1 NXT
-var SELL_RATE = 500000;  // NX returned for 1 NXT sold
+var SELL_RATE = 800000;  // NX returned for 1 NXT sold
 
 var modeType = -1; // 0 = buy, 1 = sell
 var exchangeAmount = 0;
@@ -13,7 +13,7 @@ function start() {
     cm.sendSimple(
         "Welcome to the NXT Coin Exchange Booth! I'm Mr Hong's Brother! Would you like to buy some NXT?\r\n" +
         "#L0#Buy NXT Coin (1M NX)#l\r\n" +
-        "#L1#Sell NXT Coin (500K NX)#l"
+        "#L1#Sell NXT Coin (800K NX)#l"
     );
 }
 
