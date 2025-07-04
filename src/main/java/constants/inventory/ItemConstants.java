@@ -25,6 +25,7 @@ import client.inventory.InventoryType;
 import config.YamlConfig;
 import constants.id.ItemId;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -233,11 +234,11 @@ public final class ItemConstants {
     }
 
     public static boolean isHair(int itemId) {
-        return itemId >= 30000 && itemId < 37608;
-//        String folderpath = "Enter Server path here/Cosmic/wz/Character.wz/Hair";
-//        String fileName = "000" + itemId + ".img.xml";
-//        File file = new File(folderpath, fileName);
+//        return itemId >= 30000 && itemId < 37608;
+        String folderpath = "D://MerogieMS/wz/Character.wz/Hair";
+        String fileName = "000" + itemId + ".img.xml";
+        File file = new File(folderpath, fileName);
 //        System.out.println(file);
-//        return file.exists();
+        return file.exists();
     }
 }
