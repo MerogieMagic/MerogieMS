@@ -2256,7 +2256,7 @@
 </imgdir>
 <imgdir name="103000007">
 <string name="streetName" value="Victoria Road"/>
-<string name="mapName" value="Kerning City Night Market  "/>
+<string name="mapName" value="Singapore Night Market  "/>
 </imgdir>
 <imgdir name="105090320">
 <string name="streetName" value="Mini Dungeon"/>
@@ -9849,16 +9849,16 @@
 <string name="mapName" value="Utah&apos;s Pig Farm"/>
 </imgdir>
 <imgdir name="910000000">
-<string name="streetName" value="Free Market Entrance"/>
-<string name="mapName" value="Hidden Street"/>
+<string name="streetName" value="Hidden Street"/>
+<string name="mapName" value="Free Market Entrance"/>
 </imgdir>
 <imgdir name="910000001">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;1&gt;"/>
+<string name="streetName" value="Free Market&lt;1&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000002">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;2&gt;"/>
+<string name="streetName" value="Free Market&lt;2&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000003">
 <string name="streetName" value="Hidden Street"/>
@@ -9877,12 +9877,12 @@
 <string name="mapName" value="Free Market&lt;6&gt;"/>
 </imgdir>
 <imgdir name="910000007">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;7&gt;"/>
+<string name="streetName" value="Free Market&lt;7&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000008">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;8&gt;"/>
+<string name="streetName" value="Free Market&lt;8&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000009">
 <string name="streetName" value="Hidden Street"/>
@@ -9901,12 +9901,12 @@
 <string name="mapName" value="Free Market&lt;12&gt;"/>
 </imgdir>
 <imgdir name="910000013">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;13&gt;"/>
+<string name="streetName" value="Free Market&lt;13&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000014">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;14&gt;"/>
+<string name="streetName" value="Free Market&lt;14&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000015">
 <string name="streetName" value="Hidden Street"/>
@@ -9921,12 +9921,12 @@
 <string name="mapName" value="Free Market&lt;17&gt;"/>
 </imgdir>
 <imgdir name="910000018">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;18&gt;"/>
+<string name="streetName" value="Free Market&lt;18&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000019">
-<string name="streetName" value="Hidden Street"/>
-<string name="mapName" value="Free Market&lt;19&gt;"/>
+<string name="streetName" value="Free Market&lt;19&gt;"/>
+<string name="mapName" value="Hidden Street"/>
 </imgdir>
 <imgdir name="910000020">
 <string name="streetName" value="Hidden Street"/>

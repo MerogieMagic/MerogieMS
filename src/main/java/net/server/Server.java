@@ -37,6 +37,7 @@ import constants.inventory.ItemConstants;
 import constants.net.OpcodeConstants;
 import constants.net.ServerConstants;
 import database.note.NoteDao;
+import gambling.FourDDrawScheduler;
 import net.ChannelDependencies;
 import net.PacketProcessor;
 import net.netty.LoginServer;
@@ -1033,6 +1034,10 @@ public class Server {
         tMan.register(new DueyFredrickTask(channelDependencies.fredrickProcessor()), HOURS.toMillis(1), timeLeft);
         tMan.register(new InvitationTask(), SECONDS.toMillis(30), SECONDS.toMillis(30));
         tMan.register(new RespawnTask(), YamlConfig.config.server.RESPAWN_INTERVAL, YamlConfig.config.server.RESPAWN_INTERVAL);
+
+        // 💡 ADD THIS to initialize the 4D draw system (draws at 12AM)
+        tMan.register(new FourDDrawScheduler(), DAYS.toMillis(1), Server.getTimeLeftForNextDay());
+
 
         timeLeft = getTimeLeftForNextDay();
         ExpeditionBossLog.resetBossLogTable();
