@@ -30,7 +30,8 @@ public class Draw4DCommand extends Command {
         }
 
         // Generate 4D numbers
-        String first = generateNumber();
+       String first = generateNumber();
+  //      String first = String.format("%04d", 3597);
         String second = generateNumber();
         String third = generateNumber();
         List<String> starters = generateSet(10);
